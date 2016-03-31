@@ -1,0 +1,1542 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"contactManager"
+			],
+			[
+				"ca",
+				"cacheModified"
+			],
+			[
+				"mo",
+				"modificationTime"
+			],
+			[
+				"has",
+				"hasOtherChanged"
+			],
+			[
+				"d",
+				"dirty-dialog"
+			],
+			[
+				"Con",
+				"ContactCache"
+			],
+			[
+				"Conta",
+				"ContactCache"
+			],
+			[
+				"c",
+				"contactCache"
+			],
+			[
+				"Cont",
+				"ContactCache"
+			],
+			[
+				"s",
+				"sharedContact"
+			],
+			[
+				"get",
+				"getSearchResults"
+			],
+			[
+				"sear",
+				"searchResults"
+			],
+			[
+				"class",
+				"ClassNames"
+			],
+			[
+				"all",
+				"allContacts"
+			],
+			[
+				"new",
+				"newSort"
+			],
+			[
+				"CR",
+				"CRMLayout"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"C",
+				"ContactForm"
+			],
+			[
+				"set",
+				"setSearchString"
+			],
+			[
+				"mod",
+				"modelOrCollection"
+			],
+			[
+				"save",
+				"saveToLS"
+			],
+			[
+				"prim",
+				"primaryNumber"
+			],
+			[
+				"com",
+				"company"
+			],
+			[
+				"create",
+				"createRandomWord"
+			],
+			[
+				"ge",
+				"getRandomInt"
+			],
+			[
+				"va",
+				"val"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"mode",
+				"model"
+			],
+			[
+				"to",
+				"toJSON"
+			],
+			[
+				"select",
+				"selectedContact"
+			],
+			[
+				"obj",
+				"obj2"
+			],
+			[
+				"sele",
+				"selectedContact"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"sar",
+				"searching"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"selec",
+				"selectContact"
+			],
+			[
+				"se",
+				"selectedContact"
+			],
+			[
+				"sel",
+				"selectedContact"
+			],
+			[
+				"sae",
+				"search-results"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"border-r",
+				"border-right-width"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"sea",
+				"searchResults"
+			],
+			[
+				"Co",
+				"Collection"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"search",
+				"searchString"
+			],
+			[
+				"model",
+				"modelOrCollection"
+			],
+			[
+				"CRM",
+				"CRMLayout"
+			],
+			[
+				"fir",
+				"firstDate"
+			],
+			[
+				"getMessageD",
+				"getMessageDate"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"last",
+				"lastMessageTime"
+			],
+			[
+				"getM",
+				"getMessage"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"font",
+				"fontMedium"
+			],
+			[
+				"strip",
+				"stripHtmlScripts"
+			],
+			[
+				"Transfer",
+				"TransferChat"
+			],
+			[
+				"onA",
+				"onChatVideoButton"
+			],
+			[
+				"make",
+				"makeCallComponent"
+			],
+			[
+				"utils",
+				"Utils"
+			],
+			[
+				"logout",
+				"logout-reason-dialog"
+			],
+			[
+				"dist",
+				"distPath"
+			],
+			[
+				"text",
+				"textValue"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"add",
+				"addWidget"
+			],
+			[
+				"async",
+				"asyncScript"
+			],
+			[
+				"view",
+				"viewToModel"
+			],
+			[
+				"data",
+				"dataDefaults"
+			],
+			[
+				"pro",
+				"profiles"
+			],
+			[
+				"so",
+				"showProfiles"
+			],
+			[
+				"po",
+				"profiles"
+			],
+			[
+				"W",
+				"WindowRef"
+			],
+			[
+				"gE",
+				"gEmailEventHandler"
+			],
+			[
+				"load",
+				"loadDetailData"
+			],
+			[
+				"ope",
+				"openWindowFromOptions"
+			],
+			[
+				"F",
+				"Five9SocialWidget"
+			],
+			[
+				"remove",
+				"removeWidget"
+			],
+			[
+				"click",
+				"clickClose"
+			],
+			[
+				"sh",
+				"showProfiles"
+			],
+			[
+				"b",
+				"buildChatUrl"
+			],
+			[
+				"bui",
+				"buildEmailUrl"
+			],
+			[
+				"iF",
+				"iframeProps"
+			],
+			[
+				"em",
+				"embedded-frame"
+			],
+			[
+				"response",
+				"responseText"
+			],
+			[
+				"getSe",
+				"getSelectedContact"
+			],
+			[
+				"samples",
+				"samples-source"
+			],
+			[
+				"er",
+				"errorCode"
+			],
+			[
+				"for",
+				"formattedError"
+			],
+			[
+				"pr",
+				"profiles"
+			],
+			[
+				"open",
+				"openChat"
+			],
+			[
+				"Windo",
+				"WindowRef"
+			],
+			[
+				"Address",
+				"addressType"
+			],
+			[
+				"addres",
+				"addressType"
+			],
+			[
+				"Call",
+				"CallWorkflows"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"act",
+				"activeContact"
+			],
+			[
+				"contact",
+				"contactLookupResult"
+			],
+			[
+				"Messa",
+				"MessageTypes"
+			],
+			[
+				"Mes",
+				"MessageTypes"
+			],
+			[
+				"ass",
+				"assignedEmail"
+			],
+			[
+				"start",
+				"startMessage"
+			],
+			[
+				"five9",
+				"five9-link-btn"
+			],
+			[
+				"sendM",
+				"sendMessageToAgent"
+			],
+			[
+				"sendCh",
+				"sendClientTerminateChat"
+			],
+			[
+				"error",
+				"errorThrown"
+			],
+			[
+				"Get",
+				"GetLoggedIn"
+			],
+			[
+				"getAge",
+				"getAgentId"
+			],
+			[
+				"mesa",
+				"message"
+			],
+			[
+				"mes",
+				"messageSequence"
+			],
+			[
+				"mess",
+				"messages"
+			],
+			[
+				"setM",
+				"setMessageToDisplay"
+			],
+			[
+				"messa",
+				"messages"
+			],
+			[
+				"Email",
+				"EmailModel"
+			],
+			[
+				"sub",
+				"subMediaType"
+			],
+			[
+				"ad",
+				"addressBookProps"
+			],
+			[
+				"des",
+				"destroyAddressBook"
+			],
+			[
+				"inter",
+				"interactionModel"
+			],
+			[
+				"Wino",
+				"WindowHeight"
+			],
+			[
+				"Window",
+				"WindowHeight"
+			],
+			[
+				"build",
+				"buildNotificationPopupNOCSS"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"f",
+				"five9-text"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"bor",
+				"border"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "PresModel {\n  isActionInProgress: false,\n\n  doComplete: function() {\n    if (this.actionInProgress()) return;\n  },\n  doCancel: function() {\n    if (this.actionInProgress()) return;\n    }\n  }\n}\n\nCallControlsTransfer {\n  state: {\n    cancelling: false\n    actioning: false\n  }\n\n  onCompleteClicked: fucntion()) {\n    this.setState({actioning:true});\n    this.getModel().setisActionInProgress(true);\n  },\n  onCompleteClicked: fucntion()) {\n    this.setState({actioning:true});\n    this.getModel().setisActionInProgress(true);\n  }\n}\n\nHeaderView: {\n  state: {\n    dispositioning: false\n  }\n\n  setDispositionClicked: fucntion()) {\n    this.setState({dispositioning:true});\n    this.getModel().setisActionInProgress(true);\n  },\n}",
+			"settings":
+			{
+				"buffer_size": 722,
+				"line_ending": "Unix",
+				"name": "PresModel {"
+			}
+		},
+		{
+			"file": "src/CRM-Views.js",
+			"settings":
+			{
+				"buffer_size": 4795,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/CRM-PresModel.js",
+			"settings":
+			{
+				"buffer_size": 5677,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/JSHint Inline/JSHint-Inline.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"paca",
+				"Package Control: List Packages"
+			],
+			[
+				"pacak",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"prett",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"html",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"oacka",
+				"Package Control: Remove Package"
+			],
+			[
+				"oack",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/thilterbrand/react-hot-boilerplate/src/index.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/Framework.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/ContactForm.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/CRM-PresModel.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/CRM-Views.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/Call-Views.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/Call-PresModel.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/ContactCache.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/Contact-Models.js",
+		"/Users/thilterbrand/react-hot-boilerplate/index.html",
+		"/Users/thilterbrand/react-hot-boilerplate/src/LocalModel.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/CRM-Models.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/App.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/CRMViews.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/CRMModels.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/CallControlsWarmTransfer.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/Utils.js",
+		"/Users/thilterbrand/react-hot-boilerplate/node_modules/react/README.md",
+		"/Users/thilterbrand/react-hot-boilerplate/node_modules/react/dist/react.js",
+		"/Users/thilterbrand/react-hot-boilerplate/Utils.js",
+		"/Users/thilterbrand/development/me/react-sandbox/filtered-list/Utils.js",
+		"/Users/thilterbrand/react-hot-boilerplate/package.json",
+		"/Users/thilterbrand/react-hot-boilerplate/node_modules/react.backbone/react.backbone.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/AboutTest.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/config.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/Gruntfile.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/assets/bower_components/react/react-with-addons.js",
+		"/Users/thilterbrand/Dropbox/five9/_issues/todo.txt",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/ChatConsole/scripts/ChatModel.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/ChatConsole/scripts/chat/ChatMessage.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/ChatConsole/scripts/chat/ChatEventHandler.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/ChatConsole/index.html",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/Common/css/common-structure.css",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/interaction-text-chat-screen/templates/interaction-text-chat-screen-message.hbs",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/styles/interactions-styles.less",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/interaction-text-chat-screen/lang/lang-en-US.json",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/Common/css/themes/default-theme.less",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/EmailConsole/index.html",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/ChatConsole/css/chat-structure.css",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/address-book/views/view.js",
+		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/server/agents.js",
+		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/server/transferableSkillsSocial.js",
+		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/server/transferableSkillsEmail.js",
+		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/server/transferableSkillsChat.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/SurveyConsole/css/survey-structure.css",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/Common/css/themes/lime-time.less",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/Common/css/themes/flagship.less",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/ChatConsole/lang/lang-en.json",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/ChatConsole/scripts/chat/ChatTyping.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/EmailConsole/css/email-structure.css",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/Gruntfile.js",
+		"/Users/thilterbrand/development/p4/releases/9.5/mainframe/ws/ws_services/source/web/vivr/1/js/five9.ivr.web_ui.js",
+		"/Users/thilterbrand/development/p4/releases/9.5/mainframe/ws/ws_services/source/web/vivr/1/qa.jsp",
+		"/Users/thilterbrand/development/p4/releases/9.5/mainframe/ws/ws_services/source/web/vivr/index.jsp",
+		"/Users/thilterbrand/development/five9/freedom/apps/consoles/Common/css/five9-social-widget.less",
+		"/Users/thilterbrand/development/me/react-sandbox/react-backbone/use_lib/example-4.html",
+		"/Users/thilterbrand/development/me/react-sandbox/react-backbone/use_lib/example-4.jsx",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/bower.json",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-test/views/Tests.jsx",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/interaction-text-chat-screen/views/view.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/interaction-text-email-screen/views/view.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/package.json",
+		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/server/interactionMessageTypes.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/workflows/wf-items.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-voice-details/views/header.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-test/views/view.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/controls/framework.overrides.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/lang-en-US.json",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-test/styles/styles.less",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-test/lang/lang-en-US.json",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-social-sidebar/lang/lang-en-US.json",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/.babelrc",
+		"/Users/thilterbrand/development/five9/freedom/framework/core/ui.framework.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/self.initializers.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-test/views/Timer.jsx",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-test/templates/agent-screen-test.hbs",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen/views/view.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent.bundle.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/controllers/agent.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/mock/vcc-contacts.js",
+		"/Users/thilterbrand/development/five9/freedom/framework/core/utils.js",
+		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/server/crmcontacts.js",
+		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/server/histories.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/models/view/interactions.js",
+		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/server/items.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/interaction-text-chat-screen/views/itemView.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-contacts-details-info/templates/agent-screen-contacts-details-info.hbs",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/assets/bower_components/marionette/lib/backbone.marionette.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-contacts-details-info/views/view.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/contact-history-preview/views/view.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/models/presentation/activeCall.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-home/views/view.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-home/views/Timer.jsx",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/make-call/templates/transfer-call-footer.hbs",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/make-call/templates/text-footer.hbs",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/make-call/views/textDialog.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/comments-dialog/views/view.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/author-history/views/view.js",
+		"/Users/thilterbrand/development/five9/freedom/.git/COMMIT_EDITMSG",
+		"/Users/thilterbrand/development/five9/freedom/.git/rebase-merge/git-rebase-todo",
+		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/server/chatMessages.js",
+		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/presentation.models/address-book-new.pres.model.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/make-call/views/shared.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/make-call/views/transferCallDialog.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/mock/presets.js",
+		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/server/channels.js",
+		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/presentation.models.constants/abModes.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/address-book-new/views/view.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/models/presentation/activeText.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/author-history/templates/author-history-list-item.hbs",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/contact-history-preview/templates/contact-history-preview-item.hbs",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/interaction-text-social-screen/views/view.js",
+		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/server/calls.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/models/view/utils/presence.utils.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/models/view/utils/selectContact.utils.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/workflows/wf-voicemail.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/workflows/wf-calls.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-social-details/views/header.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-social-details/views/contents.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/controls/tabs.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/call-controls/templates/call-controls.hbs",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/agent-screen-home/styles/styles.less",
+		"/Users/thilterbrand/Dropbox/five9/_issues/why-react.txt",
+		"/Users/thilterbrand/development/github/react-hot-boilerplate/webpack.config.js",
+		"/Users/thilterbrand/development/github/react-hot-boilerplate/server.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/make-call/views/newCall.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/test/jasmine/spec/handlebarsHelpers.spec.js",
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/test/jasmine/spec/unit-tests.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/thilterbrand/react-hot-boilerplate/src",
+			"",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.jsx,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.txt,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles/EmailConsole,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.json,-dist/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.json,-dist/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.json,-dist/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.json,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.json",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.json",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles/EmailConsole,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
+			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"searching",
+			"sort",
+			"data-template",
+			"sort",
+			".email",
+			"primary",
+			".save",
+			".save(",
+			"updatecon",
+			"selectcontact(",
+			"isclea",
+			"allcontacts",
+			"addc",
+			"allcontacts",
+			"showDirtyDialog",
+			"isClean",
+			"'sort'",
+			"sorttype",
+			"sort",
+			"setse",
+			"spin",
+			"instanceof",
+			"setsea",
+			"iscl",
+			"<contact",
+			"onclick",
+			"onc",
+			"fa-",
+			"crm-models",
+			"locale",
+			".local",
+			"setSearchResults",
+			"<if",
+			"initialstate",
+			"getinit",
+			"selectedconta",
+			"selectedContactClean",
+			"initi",
+			"clean",
+			"option",
+			"contactf",
+			"contactsmodel",
+			"crm-",
+			"contactform",
+			"margin:",
+			"margin-t",
+			"CRMLayout",
+			"crmviews.l",
+			"crm.",
+			"'name",
+			"'state",
+			"onf",
+			"primary",
+			"Backbone",
+			"utils",
+			"classn",
+			"loadFromLS",
+			"setsear",
+			"setSearchResults",
+			"e.",
+			"setSearchResults",
+			"input",
+			"setsearch",
+			"setsearchs",
+			"input",
+			"sear",
+			"searchResults",
+			"name",
+			"Versiom",
+			"Versio",
+			"root",
+			".clone(",
+			"new contacts.model",
+			"new conta",
+			"new c",
+			"utils",
+			"save",
+			"oncl",
+			"oncli",
+			".bind",
+			"cance",
+			"tojson",
+			"selectcontact(",
+			"sear",
+			"selectcon",
+			"setsele",
+			"addons",
+			"addon",
+			"mixin",
+			"isc",
+			"classnames",
+			"<if",
+			"map",
+			"Component",
+			"model",
+			"mymodel",
+			"modelorc",
+			"onrender",
+			"getmodel",
+			"data.",
+			"model",
+			"isco",
+			"iscoon",
+			"model",
+			"ReactDOM",
+			"component",
+			"compon",
+			"React",
+			"ReactDOM",
+			"React",
+			"onrender",
+			"refs",
+			"reactdom",
+			"react",
+			"reactdom",
+			"findDOMNode",
+			"finddom",
+			"onReactRender",
+			"react.render",
+			"finddom",
+			"messages",
+			"lastMessageTime",
+			"this.date",
+			"lastMessageDirection",
+			"lastMessageType",
+			"getmessagetime",
+			"lastMessage",
+			"lastMessageFrom"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"data-f9-template",
+			"#fff",
+			"this.generateIdString",
+			"this.generateId",
+			"this.componentName",
+			"},",
+			": ",
+			"",
+			"ReactMethods",
+			"tagsToEntities",
+			"destroyMakeCallComponent",
+			"allowCampaignByMode",
+			"allowSkillByMode",
+			"allowAgentByMode",
+			"mode, item",
+			"className",
+			"No agents are currently available. Please try again later.",
+			"field",
+			"Survey Console",
+			"Email Console",
+			"Chat Console",
+			"\"",
+			"WindowName",
+			"WindowHeight",
+			"WindowWidth",
+			"WindowRef",
+			"SocialWidget/",
+			"https://app.five9.com",
+			"\"",
+			"My Company",
+			"SocialWidget/",
+			"SocialWidget",
+			"Five9ProactiveChat",
+			"\"",
+			"defaultData",
+			"Email",
+			"@buttonWarningClick",
+			"@buttonWarningHover",
+			"@buttonPrimaryClick",
+			"@buttonPrimaryHover",
+			"@BUTTONPRIMARYHover",
+			"@gradientPrimaryBottom",
+			"@gradientPrimaryTop",
+			"@bubbleLight",
+			"@warningDarker",
+			"@warning",
+			"@primaryDarker",
+			"@secondary",
+			"@primary",
+			"@baseLight",
+			"@baseLighter",
+			"@baseDarker",
+			"@baseDark",
+			"handleTerminateButtonClicked",
+			"200px",
+			"setProfileName",
+			"_pollWindowOpenTimerId",
+			"Five9SocialWidget",
+			"five9-social-widget",
+			"social-widget/",
+			"socialWidget:",
+			"socialWidget",
+			"Five9SocialWidget",
+			"notification-3",
+			"Sample ",
+			"Five9Bootstrap",
+			"openWindow",
+			"buildChatUrl",
+			"validateOptions",
+			"font-family: @fontFamily;",
+			"validateOptions",
+			"TransferableSkills",
+			"TransferrableSkills",
+			"messageTemplate",
+			"container",
+			"typingContainer",
+			"messageContainer",
+			"messageTemplate",
+			"renderAvatar",
+			"renderTitleWorkedByName",
+			"renderAvatar",
+			"postInit",
+			"messageTemplate",
+			"'",
+			"text",
+			"typingContainer",
+			"this.",
+			"this",
+			"ChatModel",
+			"SurveyModel",
+			"EmailModel",
+			"gEmailModel",
+			"",
+			"addressBookComponent",
+			"five9-proactive",
+			"savehistory",
+			"@defaultColor",
+			"WindowRef",
+			"onEmbeddedButtonClicked",
+			"onSeparateButtonClicked",
+			"",
+			"ErrorClass",
+			"send-email-button",
+			"send-survey-button",
+			"start-over-button",
+			"start-chat-button",
+			"#0f0",
+			"font-weight: normal",
+			"normal",
+			"color: #0f0",
+			"color: #f0f0",
+			"color: #f00",
+			"red",
+			"border-radius: 5px",
+			"@baseGrey",
+			"'",
+			"five9-action-btn",
+			"#fff",
+			"#008fbd",
+			"profiles-label",
+			"five9-",
+			"f9-back-btn",
+			"messageTo",
+			"messageFrom",
+			"input-message",
+			"terminate-button",
+			"send-button",
+			"button-terminate-chat"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"auto_name": "PresModel {",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/CRM-Views.js",
+					"settings":
+					{
+						"buffer_size": 4795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1620,
+								1650
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 333.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/CRM-PresModel.js",
+					"settings":
+					{
+						"buffer_size": 5677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3645,
+								3645
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1248.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 139.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/thilterbrand/development/me.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 360.0,
+	"status_bar_visible": true
+}
