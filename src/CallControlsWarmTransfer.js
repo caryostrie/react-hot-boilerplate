@@ -32,9 +32,12 @@ var CallControlsWarmTransfer = Framework.createReactClass({
     return {};
   },
   componentDidMount: function() {
-    React.findDOMNode(this.refs.name).focus();
+    $(React.findDOMNode(this.refs.tt)).tooltip();
+    React.findDOMNode(this.refs.myInput).focus();
   },
-  componentWillUnmount: function() {},
+  componentWillUnmount: function() {
+    $(React.findDOMNode(this.refs.tt)).tooltip('destroy');
+  },
   onRender: function(data, modelOrCollection, helpers) {
   return (
 <div>
@@ -47,7 +50,7 @@ var CallControlsWarmTransfer = Framework.createReactClass({
   <hr />
   <div className="row group-separator-container">
     <div className="group-separator-title">
-      <span>Warm Transfer</span>
+      <span ref="tt" title="Warm Transfer Tooltip">Warm Transfer</span>
     </div>
   </div>
   <If condition={data.isSoftphone}>
