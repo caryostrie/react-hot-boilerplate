@@ -1,23 +1,26 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import Framework from './Framework';
 
 
-var Model = {
-  email: 'test@test.com',
-  isSoftphone: true,
-  isActionInProgress: false,
-
+var Model = Backbone.Model.extend({
   completeTransfer: function(e) {
     console.log('completeTransfer', e);
-    alert('Complete Transfer [' + this.email + ']');
+    alert('Complete Transfer [' + this.get('email') + ']');
   },
   cancelTransfer: function(e) {
     console.log('cancelTransfer', e);
-    alert('Cancel Transfer [' + this.email + ']');
+    alert('Cancel Transfer [' + this.get('email') + ']');
   }
-};
+});
 
-var KeypadPanel = React.createClass({
+var myModel = new Model({
+  email: 'test@test.com',
+  isSoftphone: true,
+  isActionInProgress: false
+});
+
+var KeypadPanel = Framework.createReactClass({
+  componentName: 'KeypadPanel',
   getInitialState: function() {
     return {
       showKeypad: true
@@ -26,8 +29,7 @@ var KeypadPanel = React.createClass({
   onShowKeypadClicked: function(e) {
     this.setState({'showKeypad': !this.state.showKeypad});
   },
-  render: function() {
-var data = this.props.model;
+  onRender: function(data, modelOrCollection, helpers) {
     return (
 <div>
   <div className="row">
@@ -42,7 +44,8 @@ var data = this.props.model;
   }
 });
 
-var CallControlsWarmTransfer = React.createClass({
+var CallControlsWarmTransfer = Framework.createReactClass({
+  componentName: 'CallControlsWarmTransfer',
   getInitialState: function() {
     return {};
   },
@@ -50,8 +53,7 @@ var CallControlsWarmTransfer = React.createClass({
     this.refs.myInput.focus();
   },
   componentWillUnmount: function() {},
-  render: function() {
-var data = this.props.model;
+  onRender: function(data, modelOrCollection, helpers) {
   return (
 <div>
   <input ref="myInput" />
@@ -67,14 +69,14 @@ var data = this.props.model;
     </div>
   </div>
   <If condition={data.isSoftphone}>
-    <KeypadPanel model={data} />
+    <KeypadPanel model={modelOrCollection} />
   </If>
   <div className="row">
 {/* commented out */}
-    <button onClick={data.completeTransfer.bind(data)}>Complete Transfer</button>
+    <button onClick={modelOrCollection.completeTransfer.bind(modelOrCollection)}>Complete Transfer</button>
   </div>
   <div className="row">
-    <button onClick={data.cancelTransfer.bind(data)}>Cancel Transfer</button>
+    <button onClick={modelOrCollection.cancelTransfer.bind(modelOrCollection)}>Cancel Transfer</button>
   </div>
 </div>
     );
@@ -85,7 +87,7 @@ var data = this.props.model;
 export default class App extends Component {
   render() {
     return (
-      <CallControlsWarmTransfer model={Model} />
+      <CallControlsWarmTransfer model={myModel} />
     );
   }
 }
