@@ -32,7 +32,7 @@ var CallControlsWarmTransfer = Framework.createReactClass({
     return {};
   },
   componentDidMount: function() {
-    this.refs.myInput.focus();
+    React.findDOMNode(this.refs.name).focus();
   },
   componentWillUnmount: function() {},
   onRender: function(data, modelOrCollection, helpers) {

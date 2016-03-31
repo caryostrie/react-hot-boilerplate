@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Framework from './Framework';
 
+import AboutTest from './AboutTest';
 import CallControlsWarmTransfer from './CallControlsWarmTransfer';
 
 var Model = Backbone.Model.extend({
@@ -19,6 +20,13 @@ var myModel = new Model({
   isActionInProgress: false
 });
 
+var aboutModel = new Backbone.Model({
+  icon: 'fa fa-test'
+});
+
+/*
+      <AboutTest model={aboutModel} />
+*/
 export default class App extends Component {
   render() {
     return (
