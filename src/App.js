@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+
 
 var Model = {
   email: 'test@test.com',
@@ -44,12 +46,15 @@ var CallControlsWarmTransfer = React.createClass({
   getInitialState: function() {
     return {};
   },
-  componentDidMount: function() {},
+  componentDidMount: function() {
+    this.refs.myInput.focus();
+  },
   componentWillUnmount: function() {},
   render: function() {
 var data = this.props.model;
   return (
 <div>
+  <input ref="myInput" />
   <div className="row group-separator-container">
     <div className="group-separator-title">
       <span>{data.email}</span>
