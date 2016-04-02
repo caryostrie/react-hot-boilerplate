@@ -101,7 +101,6 @@ var ReactFramework = {
 
 var Framework = {};
 _.extend(Framework, {
-/*
   // allow Backbone view to have React children
   BaseReactView: Backbone.View.extend({
     render: function() {
@@ -112,7 +111,6 @@ _.extend(Framework, {
       return this;
     }
   }),
-*/
   // React factory helper with all required plugins and helpers
   createReactClass: function(props) {
     props = props || {};
