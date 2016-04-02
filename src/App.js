@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import Framework from './Framework';
 
-import CRM from './CRM';
+import CRMPresModel from './CRM-PresModel';
+import CRMViews from './CRM-Views';
 
-var contactManager = new CRM.PresModel();
-var CRMLayout = CRM.Layout;
+var contactManager = new CRMPresModel();
+var CRMLayout = CRMViews.Layout;
 
 export default class App extends Component {
   render() {
