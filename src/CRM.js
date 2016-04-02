@@ -41,11 +41,20 @@ CRM.PresModel = Backbone.Model.extend({
     selectedContactClean: null
   },
 
+  // props
   isSelectedContact: function(model) {
     if (model && this.get('selectedContact') && model.id === this.get('selectedContact').id) {
       return true;
     }
     return false;
+  },
+  isClean: function() {
+    var selectedContact = this.get('selectedContact');
+    var selectedContactClean = this.get('selectedContactClean');
+    if (selectedContact && selectedContactClean) {
+      return Utils.areObjectsEqual(selectedContact, selectedContactClean);
+    }
+    return true;
   },
 
   // actions
@@ -70,6 +79,7 @@ CRM.PresModel = Backbone.Model.extend({
   },
   selectContact: function(contact) {
     this.set('selectedContact', contact);
+    this.set('selectedContactClean', contact); // TODO prob need to clone
   },
   save: function() {
 
@@ -79,9 +89,6 @@ CRM.PresModel = Backbone.Model.extend({
   }
 });
 
-/*
-  return (<li key={item.id}>{item.get('name')}</li>)
-*/
 var CRMResultsItem = Framework.createReactClass({
   componentName: 'CRMResultsItem',
   onItemClick: function(e) {
@@ -117,6 +124,27 @@ return (
     <div>{data.selectedContact.get('name')}</div>
     <div>{data.selectedContact.get('email')}</div>
   </If>
+  <button className="btn btn-default" disabled={modelOrCollection.isClean()}>Save</button>
+  <button className="btn btn-default" disabled={modelOrCollection.isClean()}>Cancel</button>
+</div>
+);
+  }
+});
+
+var CRMDetails = Framework.createReactClass({
+  componentName: 'CRMDetails',
+  onFormItemChange: function(e) {
+/*
+{data.selectedContact.get('name')}
+*/
+  },
+  onRender: function(data, modelOrCollection) {
+return (
+<div className="details">
+  <If condition={data.selectedContact}>
+    <div>Name</div><input onChange={this.onFormItemChange} />
+    <div>{data.selectedContact.get('email')}</div>
+  </If>
 </div>
 );
   }
@@ -145,7 +173,7 @@ return (
   </div>
   <div className="contents">
     <CRMHeader model={modelOrCollection} />
-    <div className="details"></div>
+    <CRMDetails model={modelOrCollection} />
   </div>
 </div>
 );
