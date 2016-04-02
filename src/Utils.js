@@ -11,6 +11,9 @@ var Utils = {
       return (c === 'x' ? r : (r&0x7|0x8)).toString(16);
     });
     return uuid;
+  },
+  getRandomInt: function(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 };
 export default Utils;

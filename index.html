@@ -2,17 +2,40 @@
 <html>
   <head>
     <title>Sample App</title>
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap.min.css">
 
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="lib/jquery-1.11.3.min.js"></script>
+    <script src="lib//bootstrap.min.js"></script>
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
       .container {
-        width: 350px;
+        width: 750px;
         min-height: 100px;
-        text-align: center;
+        text-align: left;
         border: 1px solid #ccc;
         border-radius: 8px;
+      }
+      .sidebar {
+        float: left;
+        width: 200px;
+        min-height: 400px;
+        margin: 10px 0;
+        border: 0px solid #ccc;
+        border-right-width: 1px;
+        padding: 0 8px 0 0;
+      }
+      .contents {
+        float: right;
+        width: 500px;
+      }
+      .header {
+        min-height: 100px;
+        border: 0px solid #ccc;
+        border-bottom-width: 1px;
+        padding: 8px;
       }
       </style>
   </head>
