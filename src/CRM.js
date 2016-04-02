@@ -2,6 +2,7 @@ import React from 'react';
 import Framework from './Framework';
 import Backbone from 'backbone';
 import Utils from './Utils';
+import ClassNames from 'classnames';
 
 var Mock = {
   getSearchResults: function(searchString) {
@@ -34,9 +35,17 @@ var CRM = {};
 CRM.PresModel = Backbone.Model.extend({
   defaults: {
     //allContacts: [],
+    searching: false,
     searchResults: [],
     selectedContact: null,
     selectedContactClean: null
+  },
+
+  isSelectedContact: function(model) {
+    if (model && this.get('selectedContact') && model.id === this.get('selectedContact').id) {
+      return true;
+    }
+    return false;
   },
 
   // actions
@@ -48,7 +57,9 @@ CRM.PresModel = Backbone.Model.extend({
       return;
     }
 
+    this.set('searching', true);
     setTimeout(function() {
+      this.set('searching', false);
       this.setSearchResults(Mock.getSearchResults(searchString));
     }.bind(this), 500);
   },
@@ -58,7 +69,7 @@ CRM.PresModel = Backbone.Model.extend({
     this.selectContact(searchResults.at(0));
   },
   selectContact: function(contact) {
-
+    this.set('selectedContact', contact);
   },
   save: function() {
 
@@ -73,23 +84,42 @@ CRM.PresModel = Backbone.Model.extend({
 */
 var CRMResultsItem = Framework.createReactClass({
   componentName: 'CRMResultsItem',
+  onItemClick: function(e) {
+    this.props.presModel.selectContact(this.getModel());
+  },
   onRender: function(data, modelOrCollection) {
+var itemClass = ClassNames({
+  'selected': this.props.presModel.isSelectedContact(modelOrCollection)
+});
 return (
-  <li>{data.name}</li>
+  <li className={itemClass} onClick={this.onItemClick}>{data.name}</li>
 );
   }
 });
-
 var CRMResults = Framework.createReactClass({
   componentName: 'CRMResults',
   onRender: function(data, modelOrCollection, helpers) {
 var results = modelOrCollection.get('searchResults').map(function(item) {
-  return <CRMResultsItem key={item.id} model={item} />
+  return <CRMResultsItem key={item.id} model={item} presModel={modelOrCollection} />
 });
 return (
-<ul>{results}</ul>
+<ul className="search-results">{results}</ul>
 );
     }
+});
+
+var CRMHeader = Framework.createReactClass({
+  componentName: 'CRMHeader',
+  onRender: function(data, modelOrCollection) {
+return (
+<div className="header">
+  <If condition={data.selectedContact}>
+    <div>{data.selectedContact.get('name')}</div>
+    <div>{data.selectedContact.get('email')}</div>
+  </If>
+</div>
+);
+  }
 });
 
 CRM.Layout = Framework.createReactClass({
@@ -108,11 +138,13 @@ CRM.Layout = Framework.createReactClass({
 return (
 <div id="contact-manager">
   <div className="sidebar">
-    <input ref="searchInput" onKeyDown={this.onSearchInputKeyDown}/><br />
+    <input ref="searchInput" className="search-input" onKeyDown={this.onSearchInputKeyDown}/>
+    <If condition={data.searching}><i className="search-spinner fa fa-circle-o-notch fa-spin"></i></If>
+    <br />
     <CRMResults model={modelOrCollection}/>
   </div>
   <div className="contents">
-    <div className="header"></div>
+    <CRMHeader model={modelOrCollection} />
     <div className="details"></div>
   </div>
 </div>

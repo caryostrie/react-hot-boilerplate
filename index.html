@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
   <head>
-    <title>Sample App</title>
+    <title>CRM</title>
+    <link rel="stylesheet" href="lib/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="lib/bootstrap.min.css">
 
     <script src="lib/jquery-1.11.3.min.js"></script>
@@ -25,7 +26,21 @@
         margin: 10px 0;
         border: 0px solid #ccc;
         border-right-width: 1px;
-        padding: 0 8px 0 0;
+        padding: 0 8px;
+      }
+      .search-input {
+        margin-right: 4px;
+      }
+      .search-results {
+        list-style-type: none;
+        margin-top: 8px;
+      }
+      .search-results li {
+        border-bottom: 1px solid black;
+        cursor: pointer;
+      }
+      .search-results li.selected {
+        background: #eee;
       }
       .contents {
         float: right;
