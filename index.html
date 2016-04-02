@@ -19,6 +19,9 @@
         border: 1px solid #ccc;
         border-radius: 8px;
       }
+      #page-tabs-content .tab-pane {
+        min-height: 450px;
+      }
       .sidebar {
         float: left;
         width: 200px;
@@ -58,8 +61,20 @@
   </head>
   <body>
     <div id="container" class="container">
-      <div id="root"></div>
+      <ul id="page-tabs" class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+          <a href="#crm" id="crm-tab" role="tab" data-toggle="tab">CRM</a>
+        </li>
+        <li role="presentation">
+          <a href="#call" id="call-tab" role="tab" data-toggle="tab">Call</a>
+        </li>
+      </ul>
+      <div id="page-tabs-content" class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="crm"></div>
+        <div role="tabpanel" class="tab-pane" id="call"></div>
+      </div>
     </div>
+
     <div id="dirty-dialog" class="modal" tabindex="-1" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -76,6 +91,15 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
+
+    <script>
+      $(document).ready(function() {
+        $('#page-tabs a').click(function (e) {
+          e.preventDefault();
+          $(this).tab('show');
+        });
+      });
+    </script>
     <script src="/static/bundle.js"></script>
   </body>
 </html>

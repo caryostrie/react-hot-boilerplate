@@ -132,6 +132,7 @@ return (
   <div className="contents">
     <CRMHeader model={modelOrCollection} />
     <CRMDetails model={modelOrCollection} />
+    <div>Changes here will only update this pane.</div>
   </div>
 </div>
 );
