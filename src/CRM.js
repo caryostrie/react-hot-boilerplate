@@ -85,8 +85,8 @@ CRM.PresModel = Backbone.Model.extend({
     this.set('searchResults', searchResults);
     this.selectContact(searchResults.at(0));
   },
-  selectContact: function(contact) {
-    if (!this.isClean()) return;
+  selectContact: function(contact, force) {
+    if (!force && !this.isClean()) return;
 
     if (contact) {
       contact = new Contacts.Model(contact.toJSON());
@@ -98,7 +98,12 @@ CRM.PresModel = Backbone.Model.extend({
     this.set('selectedContactClean', contact);
   },
   save: function() {
-
+    var selectedContact = this.get('selectedContact');
+    var searchResult = this.get('searchResults').get(selectedContact.id);
+    searchResult.set(selectedContact.toJSON());
+console.log('searchResults', this.get('searchResults'));
+    this.trigger('change');
+    this.selectContact(selectedContact, true);
   },
   cancel: function() {
     var selectedContact = this.get('selectedContactClean');
@@ -144,9 +149,9 @@ var CRMHeader = Framework.createReactClass({
   onRender: function(data, modelOrCollection) {
 return (
 <div className="header">
-  <If condition={data.selectedContact}>
-    <div>{data.selectedContact.get('name')}</div>
-    <div>{data.selectedContact.get('email')}</div>
+  <If condition={data.selectedContactClean}>
+    <div>{data.selectedContactClean.get('name')}</div>
+    <div>{data.selectedContactClean.get('email')}</div>
   </If>
   <button className="btn btn-default" disabled={modelOrCollection.isClean()}
     onClick={modelOrCollection.save.bind(modelOrCollection)}>Save</button>
