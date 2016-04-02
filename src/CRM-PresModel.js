@@ -68,11 +68,11 @@ var PresModel = Backbone.Model.extend({
     if (!force && !this.isClean()) return;
 
     if (contact) {
-      contact = new Contacts.Model(contact.toJSON());
+      contact = contact.clone();
     }
     this.set('selectedContact', contact);
     if (contact) {
-      contact = new Contacts.Model(contact.toJSON());
+      contact = contact.clone();
     }
     this.set('selectedContactClean', contact);
   },
@@ -85,7 +85,7 @@ var PresModel = Backbone.Model.extend({
   },
   cancel: function() {
     var selectedContact = this.get('selectedContactClean');
-    selectedContact = new Contacts.Model(selectedContact.toJSON());
+    selectedContact = selectedContact.clone();
     this.set('selectedContact', selectedContact);
   }
 });
