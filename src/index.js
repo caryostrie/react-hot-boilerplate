@@ -5,6 +5,7 @@ import CRMPresModel from './CRM-PresModel';
 import CRMViews from './CRM-Views';
 
 var contactManager = new CRMPresModel();
+contactManager.customInit();
 var CRMLayout = CRMViews.Layout;
 
 // this example uses a jq/bs tab.  might convert to React later

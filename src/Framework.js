@@ -9,7 +9,28 @@ var extendData = function(data) {
 };
 var ReactFramework = {
   Helpers: {
-    // TODO
+    arrayToSeparatedList: function(items, spaceAfterComma, separatorSymbol) {
+      if (!separatorSymbol) separatorSymbol = ',';
+      var separator = (spaceAfterComma) ? separatorSymbol + ' ' : separatorSymbol;
+      var s = '';
+      if (items && _.isArray(items)) {
+        items = _.map(items, function(item) {
+          if (item && _.isString(item)) {
+            return item.trim();
+          }
+        });
+        items = _.filter(items, function(item) {
+          if (item && _.isString(item)) {
+            return item;
+          }
+        });
+
+        for (var i = 0, l = items.length; i < l; i++) {
+          s = s + items[i] + (i !== (l-1) ? separator : '');
+        }
+      }
+      return s;
+    }
   },
   Methods: {
     serializeData: function() {

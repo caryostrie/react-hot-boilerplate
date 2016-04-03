@@ -1,8 +1,9 @@
 import React from 'react';
 import Framework from './Framework';
-import Backbone from 'backbone';
 import Utils from './Utils';
 import ClassNames from 'classnames';
+
+import ContactForm from './ContactForm';
 
 var showDirtyDialog = function() {
   $('#dirty-dialog').modal({
@@ -23,12 +24,20 @@ var CRMResultsItem = Framework.createReactClass({
       showDirtyDialog();
     }
   },
-  onRender: function(data, modelOrCollection) {
+  onRender: function(data, modelOrCollection, helpers) {
 var itemClass = ClassNames({
   'selected': this.props.presModel.isSelectedContact(modelOrCollection)
 });
 return (
-  <li className={itemClass} onClick={this.onItemClick}>{data.name}</li>
+  <li className={itemClass} onClick={this.onItemClick}>
+    <div>
+      <span className="name">{data.name}</span>
+      <span className="company">{data.company}</span>
+    </div>
+    <div>
+      <span className="number-email">{helpers.arrayToSeparatedList([data.primaryNumber,data.email], false, ' / ')}</span>
+    </div>
+  </li>
 );
   }
 });
@@ -53,56 +62,10 @@ return (
     <div>{data.selectedContactClean.get('name')}</div>
     <div>{data.selectedContactClean.get('email')}</div>
   </If>
-  <button className="btn btn-default" disabled={modelOrCollection.isClean()}
+  <button className="btn btn-primary" disabled={modelOrCollection.isClean()}
     onClick={modelOrCollection.save.bind(modelOrCollection)}>Save</button>
   <button className="btn btn-default" disabled={modelOrCollection.isClean()}
     onClick={modelOrCollection.cancel.bind(modelOrCollection)}>Cancel</button>
-</div>
-);
-  }
-});
-
-var CRMDetails = Framework.createReactClass({
-  componentName: 'CRMDetails',
-  getInitialState:  function() {
-    return {
-      name: '',
-      email: ''
-    }
-  },
-  componentDidMount: function() {
-    this.getModel().on('change:selectedContact', this.onSelectedContactChanged, this);
-  },
-  componentWillUnmount: function() {
-    this.getModel().off('change:selectedContact', this.onSelectedContactChanged, this);
-  },
-  onSelectedContactChanged: function() {
-    var selectedContact = this.getModel().get('selectedContact');
-    if (selectedContact) {
-      selectedContact = selectedContact.toJSON();
-      this.setState({
-        name: selectedContact.name,
-        email: selectedContact.email,
-      });
-    }
-    else {
-      this.setState(this.getInitialState());
-    }
-  },
-
-  onNameChange: function(e) {
-    var val = e.target.value;
-    this.setState({'name': val});
-    this.getModel().get('selectedContact').set('name', val);
-    this.getModel().trigger('change');
-  },
-  onRender: function(data, modelOrCollection) {
-return (
-<div className="details">
-  <If condition={data.selectedContact}>
-    <div>Name</div><input value={this.state.name} onChange={this.onNameChange} />
-    <div>Email</div><input value={this.state.email} disabled="disabled" />
-  </If>
 </div>
 );
   }
@@ -120,19 +83,22 @@ CRM.Layout = Framework.createReactClass({
       this.doSearch();
     }
   },
+  onSearchStringChange: function(e) {
+    var val = e.target.value;
+    this.getModel().setSearchString(val);
+  },
   onRender: function(data, modelOrCollection, helpers) {
 return (
 <div id="contact-manager">
   <div className="sidebar">
-    <input ref="searchInput" className="search-input" onKeyDown={this.onSearchInputKeyDown}/>
+    <input ref="searchInput" className="search-input" onKeyDown={this.onSearchInputKeyDown} value={data.searchString} onChange={this.onSearchStringChange}/>
     <If condition={data.searching}><i className="search-spinner fa fa-circle-o-notch fa-spin"></i></If>
     <br />
     <CRMResults model={modelOrCollection}/>
   </div>
   <div className="contents">
     <CRMHeader model={modelOrCollection} />
-    <CRMDetails model={modelOrCollection} />
-    <div>Changes here will only update this pane.</div>
+    <ContactForm model={modelOrCollection} />
   </div>
 </div>
 );

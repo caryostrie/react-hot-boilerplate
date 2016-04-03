@@ -5,7 +5,8 @@ Contacts.Model = Backbone.Model.extend({
   defaults: {
     name: '',
     email: '',
-    notes: []
+    company: '',
+    primaryNumber: ''
   }
 });
 Contacts.Collection = Backbone.Collection.extend({
