@@ -30,6 +30,9 @@ var ReactFramework = {
         }
       }
       return s;
+    },
+    isNonEmptyString: function(s) {
+      return _.isString(s) && s !== '';
     }
   },
   Methods: {

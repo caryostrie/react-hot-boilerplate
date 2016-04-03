@@ -11,8 +11,6 @@ var showDirtyDialog = function() {
   });
 };
 
-var CRM = {};
-
 var CRMResultsItem = Framework.createReactClass({
   componentName: 'CRMResultsItem',
   onItemClick: function(e) {
@@ -31,7 +29,9 @@ var itemClass = ClassNames({
 return (
   <li className={itemClass} onClick={this.onItemClick}>
     <div>
-      <span className="name">{data.name}</span>
+      <If condition={helpers.isNonEmptyString(data.name)}>
+        <span className="name">{data.name}</span>
+      </If>
       <span className="company">{data.company}</span>
     </div>
     <div>
@@ -58,9 +58,9 @@ var CRMHeader = Framework.createReactClass({
   onRender: function(data, modelOrCollection) {
 return (
 <div className="header">
-  <If condition={data.selectedContactClean}>
-    <div>{data.selectedContactClean.get('name')}</div>
-    <div>{data.selectedContactClean.get('email')}</div>
+  <If condition={data.selectedContact}>
+    <div>{data.selectedContact.get('name')}</div>
+    <div>{data.selectedContact.get('email')}</div>
   </If>
   <button className="btn btn-primary" disabled={modelOrCollection.isClean()}
     onClick={modelOrCollection.save.bind(modelOrCollection)}>Save</button>
@@ -71,7 +71,7 @@ return (
   }
 });
 
-CRM.Layout = Framework.createReactClass({
+var CRMLayout = Framework.createReactClass({
   componentName: 'CRMLayout',
   componentDidMount: function() {
     this.refs.searchInput.focus();
@@ -115,4 +115,4 @@ return (
   }
 });
 
-export default CRM;
+export default CRMLayout;

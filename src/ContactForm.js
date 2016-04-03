@@ -10,7 +10,7 @@ var ContactForm = Framework.createReactClass({
       email: '',
       company: '',
       primaryNumber: ''
-    }
+    };
   },
   componentDidMount: function() {
     this.getModel().on('change:selectedContact', this.onSelectedContactChanged, this);
