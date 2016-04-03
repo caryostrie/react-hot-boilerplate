@@ -4,8 +4,164 @@
 		"selected_items":
 		[
 			[
+				"CR",
+				"CRMLayout"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"C",
+				"ContactForm"
+			],
+			[
+				"set",
+				"setSearchString"
+			],
+			[
+				"mod",
+				"modelOrCollection"
+			],
+			[
+				"sear",
+				"searchString"
+			],
+			[
+				"save",
+				"saveToLS"
+			],
+			[
+				"prim",
+				"primaryNumber"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"com",
+				"company"
+			],
+			[
+				"create",
+				"createRandomWord"
+			],
+			[
+				"ge",
+				"getRandomInt"
+			],
+			[
+				"va",
+				"val"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"mode",
+				"model"
+			],
+			[
+				"to",
+				"toJSON"
+			],
+			[
 				"get",
-				"getCollection"
+				"getModel"
+			],
+			[
+				"select",
+				"selectedContact"
+			],
+			[
+				"obj",
+				"obj2"
+			],
+			[
+				"sele",
+				"selectedContact"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"con",
+				"condition"
+			],
+			[
+				"mo",
+				"modelOrCollection"
+			],
+			[
+				"sar",
+				"searching"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"selec",
+				"selectContact"
+			],
+			[
+				"se",
+				"selectedContact"
+			],
+			[
+				"sel",
+				"selectedContact"
+			],
+			[
+				"sae",
+				"search-results"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"border-r",
+				"border-right-width"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"sea",
+				"searchResults"
+			],
+			[
+				"Co",
+				"Collection"
+			],
+			[
+				"Con",
+				"Contacts"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"search",
+				"searchString"
+			],
+			[
+				"model",
+				"modelOrCollection"
+			],
+			[
+				"CRM",
+				"CRMLayout"
 			],
 			[
 				"fir",
@@ -50,10 +206,6 @@
 			[
 				"make",
 				"makeCallComponent"
-			],
-			[
-				"model",
-				"modelData"
 			],
 			[
 				"utils",
@@ -136,10 +288,6 @@
 				"showProfiles"
 			],
 			[
-				"r",
-				"rootUrl"
-			],
-			[
 				"b",
 				"buildChatUrl"
 			],
@@ -176,10 +324,6 @@
 				"formattedError"
 			],
 			[
-				"fon",
-				"fontFamily"
-			],
-			[
 				"pr",
 				"profiles"
 			],
@@ -208,20 +352,12 @@
 				"function"
 			],
 			[
-				"prim",
-				"primaryNumberId"
-			],
-			[
 				"act",
 				"activeContact"
 			],
 			[
 				"contact",
 				"contactLookupResult"
-			],
-			[
-				"margin",
-				"margin-left"
 			],
 			[
 				"Messa",
@@ -280,10 +416,6 @@
 				"setMessageToDisplay"
 			],
 			[
-				"C",
-				"ChatModel"
-			],
-			[
 				"messa",
 				"messages"
 			],
@@ -294,10 +426,6 @@
 			[
 				"sub",
 				"subMediaType"
-			],
-			[
-				"create",
-				"createAddressBook"
 			],
 			[
 				"ad",
@@ -324,16 +452,8 @@
 				"buildNotificationPopupNOCSS"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
 				"border",
 				"border-radius"
-			],
-			[
-				"con",
-				"connecting-page"
 			],
 			[
 				"padding",
@@ -394,160 +514,32 @@
 			[
 				"blueB",
 				"blueButtonHover"
-			],
-			[
-				"chat",
-				"chat-structure"
-			],
-			[
-				"lang",
-				"langObject"
-			],
-			[
-				"deb",
-				"debugPath"
-			],
-			[
-				"inp",
-				"input-container"
-			],
-			[
-				"bord",
-				"border-radius"
-			],
-			[
-				"assi",
-				"assistance"
-			],
-			[
-				"comm",
-				"common"
-			],
-			[
-				"ini",
-				"initializing-page"
-			],
-			[
-				"setnt",
-				"sentiment-container"
-			],
-			[
-				"default",
-				"default-theme"
-			],
-			[
-				"lan",
-				"languageMap"
-			],
-			[
-				"is",
-				"isUndefined"
-			],
-			[
-				"defa",
-				"defaultStrings"
-			],
-			[
-				"set",
-				"setTimeout"
-			],
-			[
-				"refres",
-				"refreshPageResponse"
-			],
-			[
-				"contac",
-				"contactType"
-			],
-			[
-				"eve",
-				"eventData"
-			],
-			[
-				"ev",
-				"eventData"
-			],
-			[
-				"CA",
-				"CAMPAIGNS"
-			],
-			[
-				"S",
-				"SKILLS"
-			],
-			[
-				"Filt",
-				"FiltrationTypes"
-			],
-			[
-				"interac",
-				"interaction"
-			],
-			[
-				"interaction",
-				"interactionType"
-			],
-			[
-				"cons",
-				"consolsPath"
-			],
-			[
-				"ap",
-				"apiRestPath"
-			],
-			[
-				"prot",
-				"protocol"
-			],
-			[
-				"mobi",
-				"mobileinit"
-			],
-			[
-				"ca",
-				"campaignId"
-			],
-			[
-				"camp",
-				"campaign"
-			],
-			[
-				"vis",
-				"visible"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "src/CRM-PresModel.js",
 			"settings":
 			{
-				"buffer_size": 697,
+				"buffer_size": 5215,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/App.js",
+			"file": "src/ContactForm.js",
 			"settings":
 			{
-				"buffer_size": 846,
+				"buffer_size": 2336,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/Framework.js",
+			"file": "src/CRM-Views.js",
 			"settings":
 			{
-				"buffer_size": 4027,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/CallControlsWarmTransfer.js",
-			"settings":
-			{
-				"buffer_size": 1928,
+				"buffer_size": 3340,
 				"line_ending": "Unix"
 			}
 		}
@@ -664,12 +656,27 @@
 	},
 	"file_history":
 	[
+		"/Users/thilterbrand/react-hot-boilerplate/src/Framework.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/CRM-Views.js",
+		"/Users/thilterbrand/react-hot-boilerplate/index.html",
+		"/Users/thilterbrand/react-hot-boilerplate/src/index.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/Call-PresModel.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/Call-Views.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/ContactForm.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/CRM-PresModel.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/CRM-Models.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/App.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/CRMViews.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/CRMModels.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/CallControlsWarmTransfer.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/Utils.js",
+		"/Users/thilterbrand/react-hot-boilerplate/node_modules/react/README.md",
+		"/Users/thilterbrand/react-hot-boilerplate/node_modules/react/dist/react.js",
+		"/Users/thilterbrand/react-hot-boilerplate/Utils.js",
+		"/Users/thilterbrand/development/me/react-sandbox/filtered-list/Utils.js",
+		"/Users/thilterbrand/react-hot-boilerplate/package.json",
 		"/Users/thilterbrand/react-hot-boilerplate/node_modules/react.backbone/react.backbone.js",
 		"/Users/thilterbrand/react-hot-boilerplate/src/AboutTest.js",
-		"/Users/thilterbrand/react-hot-boilerplate/src/CallControlsWarmTransfer.js",
-		"/Users/thilterbrand/react-hot-boilerplate/src/Framework.js",
-		"/Users/thilterbrand/react-hot-boilerplate/package.json",
-		"/Users/thilterbrand/react-hot-boilerplate/src/index.js",
 		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/config.js",
 		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/Gruntfile.js",
 		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/assets/bower_components/react/react-with-addons.js",
@@ -776,22 +783,7 @@
 		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/test/jasmine/spec/unit-tests.js",
 		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/controls/handlebars.overrides.js",
 		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/test/jasmine/spec/utils.spec.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/mock/vcc-triggers.js",
-		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/presentation.models/select-contact.pres.model.js",
-		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/presentation.models/newcall.pres.model.js",
-		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/presentation.models/address-book.pres.model.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-integrations/app/modules/components/voicemail-skill-transfer/views/view.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-integrations/app/modules/components/voicemail-personal-transfer/views/view.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-integrations/app/modules/components/new-callback/views/view.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-integrations/app/modules/components/new-call/views/view.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-integrations/app/modules/components/initiate-transfer/views/view.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-integrations/app/modules/components/initiate-conference/views/view.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-integrations/app/modules/components/edit-callback/views/view.js",
-		"/Users/thilterbrand/development/five9/freedom/shared/app/modules/models/presentation.models/skype-relogin.pres.model.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/models/presentation/voicemailSkill.js",
-		"/Users/thilterbrand/Dropbox/five9/_issues/Lync Architecture Meeting.txt",
-		"/Users/thilterbrand/development/five9/freedom/apps/consoles/ChatConsole/scripts/chat/ChatMessageHandler.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/make-call/views/filter.js"
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/mock/vcc-triggers.js"
 	],
 	"find":
 	{
@@ -799,9 +791,11 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"/Users/thilterbrand/react-hot-boilerplate/src",
+			"",
 			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.jsx,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
 			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
 			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,-tmp/*",
@@ -927,8 +921,6 @@
 			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
 			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
 			"/Users/thilterbrand/development/five9/freedom/apps/consoles,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
-			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
-			"/Users/thilterbrand/development/five9/freedom/shared,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,",
 			"/Users/thilterbrand/development/five9/freedom/apps/vcc-web,*.java,*.src,*.hrl,*.js,*.hbs,*.html,*.vm,*.partial,*.css,*.less,*.json,*.partial,-dist/*,-dist_/*,-node_modules/*,-bower_components/*,-assets/bower_components/*,"
 		]
 	},
@@ -937,6 +929,64 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"selectedContactClean",
+			"initi",
+			"clean",
+			"option",
+			"contactf",
+			"contactsmodel",
+			"crm-",
+			"contactform",
+			"margin:",
+			"margin-t",
+			"CRMLayout",
+			"crmviews.l",
+			"crm.",
+			"'name",
+			"'state",
+			"onf",
+			"primary",
+			"Backbone",
+			"utils",
+			"classn",
+			"loadFromLS",
+			"setsear",
+			"setSearchResults",
+			"e.",
+			"setSearchResults",
+			"input",
+			"setsearch",
+			"setsearchs",
+			"input",
+			"sear",
+			"searchResults",
+			"name",
+			"Versiom",
+			"Versio",
+			"root",
+			".clone(",
+			"new contacts.model",
+			"new conta",
+			"new c",
+			"utils",
+			"save",
+			"oncl",
+			"oncli",
+			".bind",
+			"cance",
+			"tojson",
+			"selectcontact(",
+			"sear",
+			"selectcon",
+			"setsele",
+			"addons",
+			"addon",
+			"mixin",
+			"isc",
+			"classnames",
+			"<if",
+			"map",
+			"Component",
 			"model",
 			"mymodel",
 			"modelorc",
@@ -1006,65 +1056,7 @@
 			"FROM_TYPING",
 			"removeclass",
 			"\"typing",
-			"typing",
-			"'typing",
-			"div.typing",
-			"typing",
-			"append",
-			"clearClientTyping",
-			"typingContainer",
-			"typing",
-			"theme",
-			"color:",
-			"white",
-			"color:",
-			"baseDarker",
-			"fontdark",
-			"@baseDark",
-			".typing",
-			"typing",
-			"five9-chat-button",
-			"font-size",
-			"-chat-button",
-			"20",
-			"five9-text",
-			"popoutButtonSize",
-			"five9-popout",
-			".content",
-			"resize",
-			"label",
-			"message-container",
-			"we are c",
-			"text",
-			".question",
-			"shadow",
-			"bubbl",
-			"typing",
-			"sad-",
-			"onkey",
-			"onrepl",
-			"execcommand",
-			"document.",
-			"document",
-			"saveselection",
-			"babel",
-			"ramework.",
-			"helpers",
-			"ViewHelpers",
-			"helpers",
-			"methods",
-			"helpers",
-			"ReactMethods",
-			"generateIdString",
-			"generateId",
-			"viewName",
-			"};",
-			"}:",
-			" =",
-			"this.",
-			"generateIdStringWithKey",
-			"viewhe",
-			"extendData"
+			"typing"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1210,23 +1202,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "src/CRM-PresModel.js",
 					"settings":
 					{
-						"buffer_size": 697,
+						"buffer_size": 5215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								341,
-								341
+								3774,
+								3774
 							]
 						],
 						"settings":
@@ -1320,30 +1312,30 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1722.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/App.js",
+					"file": "src/ContactForm.js",
 					"settings":
 					{
-						"buffer_size": 846,
+						"buffer_size": 2336,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								79,
-								79
+								300,
+								300
 							]
 						],
 						"settings":
@@ -1442,142 +1434,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 178.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/Framework.js",
+					"file": "src/CRM-Views.js",
 					"settings":
 					{
-						"buffer_size": 4027,
+						"buffer_size": 3340,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3273,
-								3273
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 868.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/CallControlsWarmTransfer.js",
-					"settings":
-					{
-						"buffer_size": 1928,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								190,
-								190
+								0,
+								0
 							]
 						],
 						"settings":
