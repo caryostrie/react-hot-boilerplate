@@ -1,7 +1,8 @@
 import Backbone from 'backbone';
-import Contacts from './CRM-Models';
 import Utils from './Utils';
 import _ from 'underscore';
+import Contacts from './Contact-Models';
+import LocalModel from './LocalModel';
 
 var Mock = {
   createRandomWord: function(length) {
@@ -47,7 +48,7 @@ var Mock = {
     for (var i = 0; i < count; i++) {
       var name = '';
       var email = '';
-      if (Utils.getRandomInt(0, 10) < 6) {
+      if (Utils.getRandomInt(0, 10) < 9) {
         name = 'Name-' + i;
         email = i + '@' + i + '.com';
       }
@@ -69,34 +70,13 @@ var Mock = {
   }
 };
 
-var LocalModel = {
-  loadFromLS: function() {
-    try {
-      var data = localStorage.getItem(this.Key);
-      if (data) {
-        data = JSON.parse(data);
-        if (data.version == this.Version) {
-          return data.data;
-        }
-      }
-    }
-    catch(err) {}
-  },
-  saveToLS: function() {
-    var data = this.toJSON();
-    localStorage.setItem(this.Key, JSON.stringify({
-      version: this.Version,
-      data: data
-    }));
-  }
-};
-
 var PresModel = Backbone.Model.extend({
   defaults: {
-    //allContacts: [],  TODO - demo for showing contact update from another page
+    allContacts: new Contacts.Collection([]),
     searching: false,
     searchString: '',
-    searchResults: [],
+    searchResults: new Contacts.Collection([]),
+    sort: 'ascending',
     // all of the complexity of this demo is in these two data members
     selectedContact: null,
     selectedContactClean: null,
@@ -105,7 +85,7 @@ var PresModel = Backbone.Model.extend({
   Version: '0',
 
   customInit: function() {
-    // pres model already has strong support for this.  This is NOT intended to show full functionality - just enough to prove the basic idea
+    // pres model already has strong support for this.  this is not intended to show full functionality - just enough to prove the basic idea.
     var data = this.loadFromLS();
     if (data) {
       this.set('searchString', data.searchString);
@@ -145,14 +125,29 @@ var PresModel = Backbone.Model.extend({
     this.set('searching', true);
     setTimeout(function() {
       this.set('searching', false);
-      this.setSearchResults(Mock.getSearchResults(searchString));
+      var results = Mock.getSearchResults(searchString);
+      results = _.shuffle(results);
+
+      results = new Contacts.Collection(results);
+
+      // shared contact
+/*
+      var sharedContact = this.get('allContacts').get('shared-contact-1');
+      if (sharedContact) {
+        results.add(sharedContact);
+      }
+*/
+      this.setSearchResults(results);
     }.bind(this), 500);
   },
   setSearchString: function(searchString) {
     this.set('searchString', searchString);
   },
   setSearchResults: function(searchResults) {
-    searchResults = new Contacts.Collection(searchResults);
+    if (!(searchResults instanceof Contacts.Collection)) {
+      searchResults = new Contacts.Collection(searchResults);
+    }
+    searchResults.sortType = this.get('sort');
     this.set('searchResults', searchResults);
     this.selectContact(searchResults.at(0));
   },
@@ -172,13 +167,28 @@ var PresModel = Backbone.Model.extend({
     var selectedContact = this.get('selectedContact');
     var searchResult = this.get('searchResults').get(selectedContact.id);
     searchResult.set(selectedContact.toJSON());
-    this.trigger('change');
     this.selectContact(selectedContact, true);
+    this.sortResults();
+    this.trigger('change');
   },
   cancel: function() {
     var selectedContact = this.get('selectedContactClean');
     selectedContact = selectedContact.clone();
     this.set('selectedContact', selectedContact);
+  },
+  toggleSort: function() {
+    var newSort = this.get('sort') === 'ascending' ? 'descending' : 'ascending';
+    this.set('sort', newSort);
+    this.sortResults();
+  },
+  sortResults: function() {
+    var searchResults = this.get('searchResults');
+    searchResults.sortType = this.get('sort');
+    searchResults.sort();
+  },
+
+  addContact: function(contact) {
+    this.get('allContacts').add(contact);
   }
 });
 _.extend(PresModel.prototype, LocalModel);

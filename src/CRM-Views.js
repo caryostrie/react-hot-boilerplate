@@ -27,24 +27,25 @@ var itemClass = ClassNames({
   'selected': this.props.presModel.isSelectedContact(modelOrCollection)
 });
 return (
-  <li className={itemClass} onClick={this.onItemClick}>
-    <div>
-      <If condition={helpers.isNonEmptyString(data.name)}>
-        <span className="name">{data.name}</span>
-      </If>
-      <span className="company">{data.company}</span>
-    </div>
-    <div>
-      <span className="number-email">{helpers.arrayToSeparatedList([data.primaryNumber,data.email], false, ' / ')}</span>
-    </div>
-  </li>
+<li className={itemClass} onClick={this.onItemClick}>
+  <div>
+    <If condition={helpers.isNonEmptyString(data.name)}>
+      <span className="name">{data.name}</span>
+    </If>
+    <span className="company">{data.company}</span>
+  </div>
+  <div>
+    <span className="number-email">{helpers.arrayToSeparatedList([data.primaryNumber,data.email], false, ' / ')}</span>
+  </div>
+</li>
 );
   }
 });
 var CRMResults = Framework.createReactClass({
   componentName: 'CRMResults',
   onRender: function(data, modelOrCollection, helpers) {
-var results = modelOrCollection.get('searchResults').map(function(item) {
+var results = modelOrCollection.get('searchResults')
+results = results.map(function(item) {
   return <CRMResultsItem key={item.id} model={item} presModel={modelOrCollection} />
 });
 return (
@@ -91,6 +92,12 @@ var CRMLayout = Framework.createReactClass({
 return (
 <div id="contact-manager">
   <div className="sidebar">
+    <If condition={data.sort === 'ascending'}>
+      <i className="sort-button fa fa-chevron-up" onClick={modelOrCollection.toggleSort.bind(modelOrCollection)}></i>
+    </If>
+    <If condition={data.sort === 'descending'}>
+      <i className="sort-button fa fa-chevron-down" onClick={modelOrCollection.toggleSort.bind(modelOrCollection)}></i>
+    </If>
     <input ref="searchInput" className="search-input" onKeyDown={this.onSearchInputKeyDown} value={data.searchString} onChange={this.onSearchStringChange}/>
     <If condition={data.searching}><i className="search-spinner fa fa-circle-o-notch fa-spin"></i></If>
     <br />

@@ -10,7 +10,9 @@ var CallLayout = Framework.createReactClass({
   onRender: function(data, modelOrCollection, helpers) {
 return (
 <div id="call-screen">
-  Call
+  Call<br />
+  <ContactForm model={modelOrCollection} />
+  <button className="btn btn-primary" onClick={modelOrCollection.setDisposition.bind(modelOrCollection)}>Disposition</button>
 </div>
 );
   }
