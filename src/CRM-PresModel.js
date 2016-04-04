@@ -160,9 +160,6 @@ var PresModel = Backbone.Model.extend({
   selectContact: function(contact, force) {
     if (!force && !this.isClean()) return;
 
-    if (contact) {
-      contact = contact.clone();
-    }
     this.set('selectedContact', contact);
     if (contact) {
       contact = contact.clone();
@@ -177,9 +174,10 @@ var PresModel = Backbone.Model.extend({
     this.selectContact(selectedContact, true);
   },
   cancel: function() {
-    var selectedContact = this.get('selectedContactClean');
-    selectedContact = selectedContact.clone();
-    this.set('selectedContact', selectedContact);
+    var selectedContactClean = this.get('selectedContactClean');
+    this.get('searchResults').get(selectedContactClean.id).set(selectedContactClean.toJSON());
+    var selectedContact = this.get('searchResults').get(selectedContactClean.id);
+    this.selectContact(selectedContact, true);
   }
 });
 _.extend(PresModel.prototype, LocalModel);

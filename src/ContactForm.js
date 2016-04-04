@@ -50,7 +50,7 @@ var ContactForm = Framework.createReactClass({
   onRender: function(data, modelOrCollection) {
 return (
 <div className="details">
-  <div className="comment">Option 1: Changes will only update this pane.</div>
+  <div className="comment">Option 2: Changes will update all panes.</div>
   <If condition={data.selectedContact}>
     <label className="contact-form-label">Name</label><input value={this.state.name} onChange={this.onNameChange} /><br />
     <label className="contact-form-label">Email</label><input value={this.state.email} disabled={true} /><br />
