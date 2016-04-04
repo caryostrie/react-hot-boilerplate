@@ -97,15 +97,15 @@ var PresModel = Backbone.Model.extend({
     searching: false,
     searchString: '',
     searchResults: [],
+    // all of the complexity of this demo is in these two data members
     selectedContact: null,
-    selectedContactClean: null
+    selectedContactClean: null,
   },
   Key: 'CRMPresModel',
   Version: '0',
 
   customInit: function() {
-/*
-  DEMO_PROBLEM - second example of model/state discontinuity
+    // pres model already has strong support for this.  This is NOT intended to show full functionality - just enough to prove the basic idea
     var data = this.loadFromLS();
     if (data) {
       this.set('searchString', data.searchString);
@@ -113,7 +113,6 @@ var PresModel = Backbone.Model.extend({
     }
 
     this.on('change', this.saveToLS, this);
-*/
   },
   // props
   isSelectedContact: function(model) {
