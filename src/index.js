@@ -16,6 +16,7 @@ import CRMPresModel from './CRM-PresModel';
 import CRMLayout from './CRM-Views';
 var contactManager = new CRMPresModel();
 //contactManager.customInit();
+window.gContactManager = contactManager
 
 import CallPresModel from './Call-PresModel';
 import CallLayout from './Call-Views';

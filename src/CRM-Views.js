@@ -29,7 +29,7 @@ var itemClass = ClassNames({
   'selected': this.props.presModel.isSelectedContact(modelOrCollection)
 });
 return (
-<li className={itemClass} onClick={this.onItemClick}>
+<li className={itemClass} onClick={this.onItemClick} data-id={data.id} data-f9-template={this.componentName}>
   <div>
     <If condition={helpers.isNonEmptyString(data.name)}>
       <span className="name">{data.name}</span>
@@ -51,7 +51,7 @@ results = results.map(function(item) {
   return <CRMResultsItem key={item.id} model={item} presModel={modelOrCollection} />
 });
 return (
-<ul className="search-results">{results}</ul>
+<ul className="search-results" data-f9-template={this.componentName}>{results}</ul>
 );
     }
 });
@@ -72,7 +72,7 @@ var CRMHeader = Framework.createReactClass({
   },
   onRender: function(data, modelOrCollection, helpers) {
 return (
-<div className="header">
+<div className="header" data-f9-template={this.componentName}>
   <If condition={data.selectedContactClean}>
     <div>{data.selectedContactClean.get('name')}</div>
     <div>{helpers.formatPhoneNumber(data.selectedContactClean.get('primaryNumber'))}</div>
@@ -105,7 +105,7 @@ var CRMLayout = Framework.createReactClass({
   },
   onRender: function(data, modelOrCollection, helpers) {
 return (
-<div id="contact-manager">
+<div id="contact-manager" data-f9-template={this.componentName}>
   <div className="sidebar">
     <If condition={data.sort === 'ascending'}>
       <i className="sort-button fa fa-chevron-up" onClick={modelOrCollection.toggleSort.bind(modelOrCollection)}></i>
