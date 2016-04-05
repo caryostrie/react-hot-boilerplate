@@ -74,9 +74,9 @@ var CRMHeader = Framework.createReactClass({
 return (
 <div className="header" data-f9-template={this.componentName}>
   <If condition={data.selectedContactClean}>
-    <div>{data.selectedContactClean.get('name')}</div>
-    <div>{helpers.formatPhoneNumber(data.selectedContactClean.get('primaryNumber'))}</div>
-    <div>{data.selectedContactClean.get('email')}</div>
+    <div className="name">{data.selectedContactClean.get('name')}</div>
+    <div className="number">{helpers.formatPhoneNumber(data.selectedContactClean.get('primaryNumber'))}</div>
+    <div className="email">{data.selectedContactClean.get('email')}</div>
   </If>
   <button className="btn btn-primary" disabled={modelOrCollection.isClean()}
     onClick={this.onSaveClicked}>Save</button>
@@ -103,15 +103,31 @@ var CRMLayout = Framework.createReactClass({
     var val = e.target.value;
     this.getModel().setSearchString(val);
   },
+  onSortClicked: function() {
+    var model = this.getModel();
+    model.toggleSort();
+
+    setTimeout(function() {
+      var selectedContact = model.get('selectedContact');
+      if (selectedContact) {
+        /*
+        var parent = document.querySelector('.search-results');
+        var child = document.querySelector('li[data-id="' + selectedContact.id + '"]');
+        parent.scrollTo = child.offsetTop + parent.offsetTop;*/
+        var child = document.querySelector('li[data-id="' + selectedContact.id + '"]');
+        child.scrollIntoView();
+      }
+    }, 250);
+  },
   onRender: function(data, modelOrCollection, helpers) {
 return (
 <div id="contact-manager" data-f9-template={this.componentName}>
   <div className="sidebar">
     <If condition={data.sort === 'ascending'}>
-      <i className="sort-button fa fa-chevron-up" onClick={modelOrCollection.toggleSort.bind(modelOrCollection)}></i>
+      <i className="sort-button fa fa-chevron-up" onClick={this.onSortClicked}></i>
     </If>
     <If condition={data.sort === 'descending'}>
-      <i className="sort-button fa fa-chevron-down" onClick={modelOrCollection.toggleSort.bind(modelOrCollection)}></i>
+      <i className="sort-button fa fa-chevron-down" onClick={this.onSortClicked}></i>
     </If>
     <input ref="searchInput" className="search-input" onKeyDown={this.onSearchInputKeyDown} value={data.searchString} onChange={this.onSearchStringChange}/>
     <If condition={data.searching}><i className="search-spinner fa fa-circle-o-notch fa-spin"></i></If>
