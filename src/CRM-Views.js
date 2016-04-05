@@ -5,7 +5,9 @@ import ClassNames from 'classnames';
 
 import ContactForm from './ContactForm';
 
-var showDirtyDialog = function() {
+var showDirtyDialog = function(type) {
+  var message = (type === 'cacheModified') ? 'Attempt to change unclean shared model' : 'Must save or cancel';
+  $('#dirty-dialog .message').html();
   $('#dirty-dialog').modal({
     keyboard: false
   });
@@ -35,7 +37,7 @@ return (
     <span className="company">{data.company}</span>
   </div>
   <div>
-    <span className="number-email">{helpers.arrayToSeparatedList([data.primaryNumber,data.email], false, ' / ')}</span>
+    <span className="number-email">{helpers.arrayToSeparatedList([helpers.formatPhoneNumber(data.primaryNumber),data.email], false, ' / ')}</span>
   </div>
 </li>
 );
@@ -56,15 +58,28 @@ return (
 
 var CRMHeader = Framework.createReactClass({
   componentName: 'CRMHeader',
-  onRender: function(data, modelOrCollection) {
+  onSaveClicked: function(e) {
+    e.preventDefault();
+
+    var model = this.getModel();
+    var selectedContact = model.get('selectedContact');
+    if (ContactCache.hasChanged(selectedContact)) {
+      showDirtyDialog('cacheModified');
+    }
+    else {
+      model.save();
+    }
+  },
+  onRender: function(data, modelOrCollection, helpers) {
 return (
 <div className="header">
   <If condition={data.selectedContactClean}>
     <div>{data.selectedContactClean.get('name')}</div>
+    <div>{helpers.formatPhoneNumber(data.selectedContactClean.get('primaryNumber'))}</div>
     <div>{data.selectedContactClean.get('email')}</div>
   </If>
   <button className="btn btn-primary" disabled={modelOrCollection.isClean()}
-    onClick={modelOrCollection.save.bind(modelOrCollection)}>Save</button>
+    onClick={this.onSaveClicked}>Save</button>
   <button className="btn btn-default" disabled={modelOrCollection.isClean()}
     onClick={modelOrCollection.cancel.bind(modelOrCollection)}>Cancel</button>
 </div>
@@ -117,7 +132,7 @@ return (
       model.search(this.refs.searchInput.value);
     }
     else {
-      showDirtyDialog();
+      showDirtyDialog('isClean');
     }
   }
 });

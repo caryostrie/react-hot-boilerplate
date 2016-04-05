@@ -33,6 +33,16 @@ var ReactFramework = {
     },
     isNonEmptyString: function(s) {
       return _.isString(s) && s !== '';
+    },
+    formatPhoneNumber: function(num) {
+      if (_.isUndefined(num) || _.isNull(num)) return '';
+
+      num = num.toString();
+      if (num.length === 10 && $.isNumeric(num)) {
+        return '(' + num.substr(0, 3) + ') ' + num.substr(3, 3) + '-' + num.substr(6, 4);
+      }
+      // for international #'s, just use string as-is (to avoid overflow of fields for very long numbers)
+      return num;
     }
   },
   Methods: {

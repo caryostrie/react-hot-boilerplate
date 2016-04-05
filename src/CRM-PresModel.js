@@ -36,7 +36,7 @@ var Mock = {
     var InternationalPhoneLength = 13;
     var length = (Utils.getRandomInt(0, 5) > 0) ? USPhoneLength : InternationalPhoneLength;
     var phone = '';
-    for (var i = 0; i <= length; i++) {
+    for (var i = 0; i < length; i++) {
       phone += Utils.getRandomInt(0, 9);
     }
     return phone;
@@ -72,7 +72,6 @@ var Mock = {
 
 var PresModel = Backbone.Model.extend({
   defaults: {
-    allContacts: new Contacts.Collection([]),
     searching: false,
     searchString: '',
     searchResults: new Contacts.Collection([]),
@@ -131,12 +130,11 @@ var PresModel = Backbone.Model.extend({
       results = new Contacts.Collection(results);
 
       // shared contact
-/*
-      var sharedContact = this.get('allContacts').get('shared-contact-1');
+      var sharedContact = ContactCache.getContact('shared-contact-1');
       if (sharedContact) {
         results.add(sharedContact);
       }
-*/
+
       this.setSearchResults(results);
     }.bind(this), 500);
   },
@@ -170,6 +168,8 @@ var PresModel = Backbone.Model.extend({
     this.selectContact(selectedContact, true);
     this.sortResults();
     this.trigger('change');
+
+    ContactCache.updateContact(selectedContact);
   },
   cancel: function() {
     var selectedContact = this.get('selectedContactClean');
@@ -185,10 +185,6 @@ var PresModel = Backbone.Model.extend({
     var searchResults = this.get('searchResults');
     searchResults.sortType = this.get('sort');
     searchResults.sort();
-  },
-
-  addContact: function(contact) {
-    this.get('allContacts').add(contact);
   }
 });
 _.extend(PresModel.prototype, LocalModel);

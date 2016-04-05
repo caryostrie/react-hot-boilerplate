@@ -6,26 +6,44 @@ import Contacts from './Contact-Models';
 
 var CallPresModel = Backbone.Model.extend({
   defaults: {
-    selectedContact: null
+    selectedContact: null,
+    selectedContactClean: null,
   },
   Key: 'CallPresModel',
   Version: '0',
 
-  isClean: function() {
+  hasUserChanged: function() {
     var selectedContact = this.get('selectedContact');
-    var selectedContactClean = this.get('selectedContactClean');
-    if (selectedContact && selectedContactClean) {
-      return Utils.areObjectsEqual(selectedContact.toJSON(), selectedContactClean.toJSON());
+    if (selectedContact) {
+      // has user made changes to call contact
+      var selectedContactClean = this.get('selectedContactClean');
+      if (selectedContact && selectedContactClean) {
+        return !Utils.areObjectsEqual(selectedContact.toJSON(), selectedContactClean.toJSON());
+      }
     }
-    return true;
+    return false;
+  },
+  hasOtherChanged: function() {
+    var selectedContact = this.get('selectedContact');
+    if (selectedContact) {
+      if (!this.hasUserChanged()) return false;
+
+      // has use made changes on other screens?
+      return ContactCache.hasChanged(selectedContact);
+    }
+    return false;
   },
 
   // actions
   setDisposition: function() {
-// TODO
+    if (this.get('selectedContact')) {
+      ContactCache.updateContact(this.get('selectedContact'));
+    }
+    this.set('selectedContact', null);
+    this.set('selectedContactClean', null);
   },
   selectContact: function(contact, force) {
-    if (!force && !this.isClean()) return;
+    if (!force && this.hasUserChanged()) return;
 
     if (contact) {
       contact = contact.clone();
@@ -35,7 +53,7 @@ var CallPresModel = Backbone.Model.extend({
       contact = contact.clone();
     }
     this.set('selectedContactClean', contact);
-  },
+  }
 });
 
 export default CallPresModel;

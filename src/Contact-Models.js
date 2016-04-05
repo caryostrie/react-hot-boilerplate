@@ -6,7 +6,11 @@ Contacts.Model = Backbone.Model.extend({
     name: '',
     email: '',
     company: '',
-    primaryNumber: ''
+    primaryNumber: '',
+    modificationTime: new Date().getTime()
+  },
+  touch: function() {
+    this.set('modificationTime', new Date().getTime())
   }
 });
 Contacts.Collection = Backbone.Collection.extend({
