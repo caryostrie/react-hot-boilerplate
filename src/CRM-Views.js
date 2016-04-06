@@ -108,15 +108,17 @@ var CRMLayout = Framework.createReactClass({
     model.toggleSort();
 
     setTimeout(function() {
+      // scroll to selected contact.  it is still possible to use jq for animate.  it's probably better to avoid
+      var parent = document.querySelector('.search-results');
       var selectedContact = model.get('selectedContact');
       if (selectedContact) {
-        /*
-        var parent = document.querySelector('.search-results');
         var child = document.querySelector('li[data-id="' + selectedContact.id + '"]');
-        parent.scrollTo = child.offsetTop + parent.offsetTop;*/
-        var child = document.querySelector('li[data-id="' + selectedContact.id + '"]');
-        child.scrollIntoView();
+        scrollTo = child.offsetTop - parent.offsetTop;
       }
+      else {
+        scrollTo = 0;
+      }
+      $(parent).animate({scrollTop:scrollTo});
     }, 250);
   },
   onRender: function(data, modelOrCollection, helpers) {

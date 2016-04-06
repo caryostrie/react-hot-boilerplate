@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"contactManager"
+			],
+			[
+				"ca",
+				"cacheModified"
+			],
+			[
+				"mo",
+				"modificationTime"
+			],
+			[
+				"has",
+				"hasOtherChanged"
+			],
+			[
+				"d",
+				"dirty-dialog"
+			],
+			[
+				"Con",
+				"ContactCache"
+			],
+			[
+				"Conta",
+				"ContactCache"
+			],
+			[
+				"c",
+				"contactCache"
+			],
+			[
+				"Cont",
+				"ContactCache"
+			],
+			[
+				"s",
+				"sharedContact"
+			],
+			[
+				"get",
+				"getSearchResults"
+			],
+			[
+				"sear",
+				"searchResults"
+			],
+			[
+				"class",
+				"ClassNames"
+			],
+			[
+				"all",
+				"allContacts"
+			],
+			[
+				"new",
+				"newSort"
+			],
+			[
 				"CR",
 				"CRMLayout"
 			],
@@ -28,20 +88,12 @@
 				"modelOrCollection"
 			],
 			[
-				"sear",
-				"searchString"
-			],
-			[
 				"save",
 				"saveToLS"
 			],
 			[
 				"prim",
 				"primaryNumber"
-			],
-			[
-				"class",
-				"className"
 			],
 			[
 				"com",
@@ -72,10 +124,6 @@
 				"toJSON"
 			],
 			[
-				"get",
-				"getModel"
-			],
-			[
 				"select",
 				"selectedContact"
 			],
@@ -90,14 +138,6 @@
 			[
 				"btn",
 				"btn-default"
-			],
-			[
-				"con",
-				"condition"
-			],
-			[
-				"mo",
-				"modelOrCollection"
 			],
 			[
 				"sar",
@@ -142,10 +182,6 @@
 			[
 				"Co",
 				"Collection"
-			],
-			[
-				"Con",
-				"Contacts"
 			],
 			[
 				"r",
@@ -478,68 +514,33 @@
 			[
 				"bor",
 				"border"
-			],
-			[
-				"padd",
-				"padding"
-			],
-			[
-				"bac",
-				"background"
-			],
-			[
-				"transfer",
-				"transfer_voicemail"
-			],
-			[
-				"inline",
-				"inline-block"
-			],
-			[
-				"focus",
-				"focusGlow"
-			],
-			[
-				"marg",
-				"margin-bottom"
-			],
-			[
-				"font-",
-				"font-size"
-			],
-			[
-				"redB",
-				"redButtonHover"
-			],
-			[
-				"blueB",
-				"blueButtonHover"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/CRM-PresModel.js",
+			"contents": "PresModel {\n  isActionInProgress: false,\n\n  doComplete: function() {\n    if (this.actionInProgress()) return;\n  },\n  doCancel: function() {\n    if (this.actionInProgress()) return;\n    }\n  }\n}\n\nCallControlsTransfer {\n  state: {\n    cancelling: false\n    actioning: false\n  }\n\n  onCompleteClicked: fucntion()) {\n    this.setState({actioning:true});\n    this.getModel().setisActionInProgress(true);\n  },\n  onCompleteClicked: fucntion()) {\n    this.setState({actioning:true});\n    this.getModel().setisActionInProgress(true);\n  }\n}\n\nHeaderView: {\n  state: {\n    dispositioning: false\n  }\n\n  setDispositionClicked: fucntion()) {\n    this.setState({dispositioning:true});\n    this.getModel().setisActionInProgress(true);\n  },\n}",
 			"settings":
 			{
-				"buffer_size": 5215,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/ContactForm.js",
-			"settings":
-			{
-				"buffer_size": 2336,
-				"line_ending": "Unix"
+				"buffer_size": 722,
+				"line_ending": "Unix",
+				"name": "PresModel {"
 			}
 		},
 		{
 			"file": "src/CRM-Views.js",
 			"settings":
 			{
-				"buffer_size": 3340,
+				"buffer_size": 4795,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/CRM-PresModel.js",
+			"settings":
+			{
+				"buffer_size": 5677,
 				"line_ending": "Unix"
 			}
 		}
@@ -656,14 +657,17 @@
 	},
 	"file_history":
 	[
-		"/Users/thilterbrand/react-hot-boilerplate/src/Framework.js",
-		"/Users/thilterbrand/react-hot-boilerplate/src/CRM-Views.js",
-		"/Users/thilterbrand/react-hot-boilerplate/index.html",
 		"/Users/thilterbrand/react-hot-boilerplate/src/index.js",
-		"/Users/thilterbrand/react-hot-boilerplate/src/Call-PresModel.js",
-		"/Users/thilterbrand/react-hot-boilerplate/src/Call-Views.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/Framework.js",
 		"/Users/thilterbrand/react-hot-boilerplate/src/ContactForm.js",
 		"/Users/thilterbrand/react-hot-boilerplate/src/CRM-PresModel.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/CRM-Views.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/Call-Views.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/Call-PresModel.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/ContactCache.js",
+		"/Users/thilterbrand/react-hot-boilerplate/src/Contact-Models.js",
+		"/Users/thilterbrand/react-hot-boilerplate/index.html",
+		"/Users/thilterbrand/react-hot-boilerplate/src/LocalModel.js",
 		"/Users/thilterbrand/react-hot-boilerplate/src/CRM-Models.js",
 		"/Users/thilterbrand/react-hot-boilerplate/src/App.js",
 		"/Users/thilterbrand/react-hot-boilerplate/src/CRMViews.js",
@@ -780,10 +784,7 @@
 		"/Users/thilterbrand/development/github/react-hot-boilerplate/server.js",
 		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/components/make-call/views/newCall.js",
 		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/test/jasmine/spec/handlebarsHelpers.spec.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/test/jasmine/spec/unit-tests.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/controls/handlebars.overrides.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/test/jasmine/spec/utils.spec.js",
-		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/app/modules/mock/vcc-triggers.js"
+		"/Users/thilterbrand/development/five9/freedom/apps/vcc-web/test/jasmine/spec/unit-tests.js"
 	],
 	"find":
 	{
@@ -791,7 +792,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/thilterbrand/react-hot-boilerplate/src",
@@ -929,6 +930,42 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"searching",
+			"sort",
+			"data-template",
+			"sort",
+			".email",
+			"primary",
+			".save",
+			".save(",
+			"updatecon",
+			"selectcontact(",
+			"isclea",
+			"allcontacts",
+			"addc",
+			"allcontacts",
+			"showDirtyDialog",
+			"isClean",
+			"'sort'",
+			"sorttype",
+			"sort",
+			"setse",
+			"spin",
+			"instanceof",
+			"setsea",
+			"iscl",
+			"<contact",
+			"onclick",
+			"onc",
+			"fa-",
+			"crm-models",
+			"locale",
+			".local",
+			"setSearchResults",
+			"<if",
+			"initialstate",
+			"getinit",
+			"selectedconta",
 			"selectedContactClean",
 			"initi",
 			"clean",
@@ -1020,43 +1057,7 @@
 			"lastMessageType",
 			"getmessagetime",
 			"lastMessage",
-			"lastMessageFrom",
-			"profiles-button",
-			"typing.gif",
-			"#5b6770",
-			"typing",
-			"typing.gif",
-			"message-c",
-			"message",
-			"baseLighter",
-			"box-shadow",
-			"unable to construct",
-			"unable to",
-			"chattra",
-			"TransferableSkills",
-			"transferab",
-			"box-shadow",
-			"BaseGrey",
-			"box-shadow",
-			"shadow",
-			"15px",
-			"role=\"footer\"",
-			"ui-footer",
-			"6px",
-			"15px",
-			"bold",
-			"label",
-			".remove",
-			".typing",
-			"typing",
-			"fontl",
-			"clearClientTyping",
-			"S_CONVERSATION_PAGE",
-			"addclass",
-			"FROM_TYPING",
-			"removeclass",
-			"\"typing",
-			"typing"
+			"lastMessageFrom"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1064,6 +1065,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"data-f9-template",
 			"#fff",
 			"this.generateIdString",
 			"this.generateId",
@@ -1190,8 +1192,7 @@
 			"input-message",
 			"terminate-button",
 			"send-button",
-			"button-terminate-chat",
-			"connecting-message"
+			"button-terminate-chat"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1207,135 +1208,44 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/CRM-PresModel.js",
 					"settings":
 					{
-						"buffer_size": 5215,
+						"buffer_size": 722,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3774,
-								3774
+								193,
+								193
 							]
 						],
 						"settings":
 						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"auto_name": "PresModel {",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1722.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/ContactForm.js",
+					"file": "src/CRM-Views.js",
 					"settings":
 					{
-						"buffer_size": 2336,
+						"buffer_size": 4795,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								300,
-								300
+								1620,
+								1650
 							]
 						],
 						"settings":
@@ -1434,25 +1344,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 178.0,
+						"translation.y": 333.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/CRM-Views.js",
+					"file": "src/CRM-PresModel.js",
 					"settings":
 					{
-						"buffer_size": 3340,
+						"buffer_size": 5677,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3645,
+								3645
 							]
 						],
 						"settings":
@@ -1551,7 +1461,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1248.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
