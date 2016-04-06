@@ -18,6 +18,7 @@ var ContactCache = {
       this._allContacts[contact.id].refCount++;
     }
     else {
+// TODO this should just store id & modTime.  It's too easy to mess up the contact
       this._allContacts[contact.id] = {
         contact: contact,
         refCount: 1
