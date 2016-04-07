@@ -12,6 +12,9 @@
         margin: 0;
         padding: 0;
       }
+      li {
+        list-style-type: none;
+      }
       .container {
         width: 750px;
         min-height: 100px;
@@ -19,112 +22,18 @@
         border: 1px solid #ccc;
         border-radius: 8px;
       }
-      #page-tabs-content .tab-pane {
-        min-height: 450px;
-        margin: 10px 0;
-      }
-      .sidebar {
-        float: left;
-        width: 220px;
-        min-height: 400px;
-        border: 0px solid #ccc;
-        border-right-width: 1px;
-        padding: 0 8px;
-      }
-      .sort-button {
-        margin-right: 4px;
+
+      .collapse-category-header {
         cursor: pointer;
       }
-      .search-input {
-        margin-right: 4px;
-      }
-      .search-results {
-        max-height: 400px;
-        overflow-y: scroll;
-        list-style-type: none;
-        margin-top: 8px;
-      }
-      .search-results li {
-        border-bottom: 1px solid black;
-        cursor: pointer;
-        min-height: 42px;
-        font-size: 12px;
-        color: #5b6770;
-      }
-      .search-results li.selected {
-        background: #eee;
-      }
-      .search-results li .name {
-        margin-right: 4px;
-        font-size: 14px;
-        font-weight: 500;
-      }
-      .contents {
-        float: right;
-        width: 480px;
-      }
-      .header {
-        min-height: 100px;
-        border: 0px solid #ccc;
-        border-bottom-width: 1px;
-        padding: 8px;
-      }
-      .header .name {
-        font-size: 14px;
-        font-weight: 500;
-      }
-      .details {
-        margin-top: 4px;
-      }
-      .details .comment {
-        margin-bottom: 10px;
-      }
-      .contact-form-label {
+      .collapse-category-header i {
+        color: #288dc1;
         margin-right: 4px;
       }
       </style>
   </head>
   <body>
-    <div id="container" class="container">
-      <ul id="page-tabs" class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active">
-          <a href="#crm" id="crm-tab" role="tab" data-toggle="tab">CRM</a>
-        </li>
-        <li role="presentation">
-          <a href="#call" id="call-tab" role="tab" data-toggle="tab">Call</a>
-        </li>
-      </ul>
-      <div id="page-tabs-content" class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="crm"></div>
-        <div role="tabpanel" class="tab-pane" id="call"></div>
-      </div>
-    </div>
-
-    <div id="dirty-dialog" class="modal" tabindex="-1" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
-            <h4 class="modal-title">Contact not saved</h4>
-          </div>
-          <div class="modal-body">
-            <p class="message"></p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-    <script>
-      $(document).ready(function() {
-        $('#page-tabs a').click(function (e) {
-          e.preventDefault();
-          $(this).tab('show');
-        });
-      });
-    </script>
+    <div id="container" class="container"></div>
     <script src="/static/bundle.js"></script>
   </body>
 </html>
