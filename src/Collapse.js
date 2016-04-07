@@ -36,9 +36,10 @@ var itemsListClass = ClassNames({
   'show': this.state.show,
   'hide': !this.state.show
 });
+var itemView = this.props.itemView;
 var category = this.props.category;
 var items = category.items.map(function(item) {
-  return <li key={item.id}>{item.name}</li>
+  return React.createElement(itemView, {item:item});
 });
 return (
   <li>
@@ -61,8 +62,8 @@ categories = _.filter(categories, function(category) {
     return category.items.length;
 });
 categories = categories.map(function(category) {
-  return <CategoryItem key={category.id} category={category} />
-});
+  return <CategoryItem key={category.id} category={category} itemView={this.props.itemView} />
+}.bind(this));
 return (
 <ul className="collapse-category">{categories}</ul>
 );
@@ -87,7 +88,7 @@ var filteredItems = _.filter(this.props.items, function(item) {
 return (
 <div>
   <input ref="filterTextInput" placeholder="Search" value={this.props.filterText} onChange={this.onFilterTextChange} />
-  <Views.Collapse categories={this.props.categories} items={filteredItems} />
+  <Views.Collapse categories={this.props.categories} items={filteredItems} itemView={this.props.itemView} />
 </div>
 );
   }
