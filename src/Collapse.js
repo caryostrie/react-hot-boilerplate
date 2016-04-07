@@ -36,10 +36,9 @@ var itemsListClass = ClassNames({
   'show': this.state.show,
   'hide': !this.state.show
 });
-var itemView = this.props.itemView;
 var category = this.props.category;
 var items = category.items.map(function(item) {
-  return React.createElement(itemView, {item:item});
+  return <li key={item.id} className="item-name">{item.description}</li>
 });
 return (
   <li>
@@ -62,7 +61,7 @@ categories = _.filter(categories, function(category) {
     return category.items.length;
 });
 categories = categories.map(function(category) {
-  return <CategoryItem key={category.id} category={category} itemView={this.props.itemView} />
+  return <CategoryItem key={category.id} category={category} />
 }.bind(this));
 return (
 <ul className="collapse-category">{categories}</ul>
@@ -83,12 +82,12 @@ Views.FilterableCollapse = Framework.createReactClass({
   onRender: function(data, modelOrCollection, helpers) {
 var filterText = this.state.filterText.toLowerCase();
 var filteredItems = _.filter(this.props.items, function(item) {
-  return item.name.toLowerCase().indexOf(filterText) !== -1;
+  return item.description.toLowerCase().indexOf(filterText) !== -1;
 });
 return (
 <div>
-  <input ref="filterTextInput" placeholder="Search" value={this.props.filterText} onChange={this.onFilterTextChange} />
-  <Views.Collapse categories={this.props.categories} items={filteredItems} itemView={this.props.itemView} />
+  <input ref="filterTextInput" className="forn-control" placeholder="Search" value={this.props.filterText} onChange={this.onFilterTextChange} />
+  <Views.Collapse categories={this.props.categories} items={filteredItems} />
 </div>
 );
   }
