@@ -61,12 +61,12 @@ EnglishKeys.navigationMap = {
     AgentStateDropdown: {keys: 'ctrl + alt > o', description: 'Open State Dropdown', category: 'category-state'},
     Logout: {keys: 'shift + ctrl + alt > l', description: 'Log Out', category: 'category-state'},
 
-// TODO THESE should really apply to all channels
-    EndInteraction: {keys: 'ctrl + alt > w', description: 'End Interaction', category: 'category-call'},
-    OpenDisposition: {keys: 'ctrl + alt > d', description: 'Open Disposition', category: 'category-call'},
-    TransferInteraction: {keys: 'ctrl + alt > t', description: 'Transfer Interaction', category: 'category-call'},
-    Conference: {keys: 'ctrl + alt > a', description: 'Conference Interaction', category: 'category-call'},
-// TODO THESE should really apply to all channels
+    // apply to all channels
+    EndInteraction: {keys: 'ctrl + alt > w', description: 'End', category: ['category-call','category-voicemail','category-text']},
+    OpenDisposition: {keys: 'ctrl + alt > d', description: 'Open', category: ['category-call','category-voicemail','category-text']},
+    TransferInteraction: {keys: 'ctrl + alt > t', description: 'Transfer', category: ['category-call','category-voicemail','category-text']},
+    Conference: {keys: 'ctrl + alt > a', description: 'Conference', category: ['category-call','category-voicemail','category-text']},
+    // apply to all channels
   };
 
   EnglishKeys.callControlsMap = {
@@ -99,13 +99,20 @@ var keysToItems = function(items, keyMap) {
   _.each(keyMap, function(item) {
     var splitKeys = item.keys.split(/[\+,>]/);
     if (splitKeys.length) {
-      items.push({
-        id: Utils.generateGuid(),
-        mods: splitKeys.slice(0, splitKeys.length-1),
-        key: splitKeys[splitKeys.length-1],
-        description: item.description,
-        category: item.category
+      splitKeys = _.map(splitKeys, function(key) {
+        return key.trim();
       });
+
+      var categories = _.isArray(item.category) ? item.category : [item.category];
+      for (var i = 0; i < categories.length; i++) {
+        items.push({
+          id: Utils.generateGuid(),
+          mods: splitKeys.slice(0, splitKeys.length-1),
+          key: splitKeys[splitKeys.length-1],
+          description: item.description,
+          category: categories[i]
+        });
+      }
     }
   });
 };
