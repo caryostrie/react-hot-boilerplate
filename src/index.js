@@ -100,7 +100,12 @@ var keysToItems = function(items, keyMap) {
     var splitKeys = item.keys.split(/[\+,>]/);
     if (splitKeys.length) {
       splitKeys = _.map(splitKeys, function(key) {
-        return key.trim();
+        key = key.trim();
+        if (navigator.appVersion.indexOf('Mac') !== -1) {
+          if (key === 'alt') key = 'option';
+          if (key === 'enter') key = 'return';
+        }
+        return key;
       });
 
       var categories = _.isArray(item.category) ? item.category : [item.category];
