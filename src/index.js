@@ -97,12 +97,16 @@ EnglishKeys.navigationMap = {
 //  {id:'item-1',name:'Item 1',key:'H',category:'category-2'},
 var keysToItems = function(items, keyMap) {
   _.each(keyMap, function(item) {
-    items.push({
-      id: Utils.generateGuid(),
-      keys: item.keys,
-      description: item.description,
-      category: item.category
-    });
+    var splitKeys = item.keys.split(/[\+,>]/);
+    if (splitKeys.length) {
+      items.push({
+        id: Utils.generateGuid(),
+        mods: splitKeys.slice(0, splitKeys.length-1),
+        key: splitKeys[splitKeys.length-1],
+        description: item.description,
+        category: item.category
+      });
+    }
   });
 };
 

@@ -31,17 +31,49 @@
         cursor: pointer;
         font-size: 13px;
         font-weight: 500;
-        color: #288dc1;
+        color: #2e3438;
         text-transform: uppercase;
       }
       .collapse-category-header i {
         margin-right: 8px;
       }
+      .collapse-items {
+        display: none;
+        table-layout: fixed;
+        width: 100%;
+      }
+      .collapse-items-show {
+        display: table;
+      }
       .item-name {
-        line-height: 26px;
+        height: 42px;
         font-size: 16px;
         font-weight: 300;
         color: #2e3438;
+      }
+      .item-key-mod {
+        border-radius: 4px;
+        padding: 6px 12px;
+        line-height: 1.42857143;
+        /* TODO colors */
+        border: 1px solid #eee;
+        background: #ccc;
+        text-transform: capitalize;
+      }
+      .item-key-plus {
+        padding: 0 2px;
+        line-height: 1.42857143;
+        color: #ccc;
+      }
+      .item-key {
+        border-radius: 4px;
+        padding: 6px 12px;
+        line-height: 1.42857143;
+        /* TODO colors */
+        border: 1px solid #288dc1;
+        background: #288dc1;
+        color: #fff;
+        text-transform: capitalize;
       }
       </style>
   </head>

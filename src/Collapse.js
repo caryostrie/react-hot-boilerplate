@@ -33,12 +33,19 @@ var CategoryItem = Framework.createReactClass({
 var headerClass = this.state.show ? 'fa fa-chevron-down' : 'fa fa-chevron-right';
 var itemsListClass = ClassNames({
   'collapse-items': true,
-  'show': this.state.show,
-  'hide': !this.state.show
+  'collapse-items-show': this.state.show
 });
 var category = this.props.category;
 var items = category.items.map(function(item) {
-  return <li key={item.id} className="item-name">{item.description}</li>
+  return (<tr height="26px" key={item.id} className="item-name">
+    <td>{item.description}</td>
+    <td>
+    {item.mods.map(function(mod) {
+      return [<span className="item-key-mod">{mod}</span>,<span className="item-key-plus">+</span>]
+    })}
+    <span className="item-key">{item.key}</span>
+    </td>
+  </tr>);
 });
 return (
   <li>
@@ -46,7 +53,10 @@ return (
       <i className={headerClass}></i>
       {category.name}
     </div>
-    <ul className={itemsListClass}>{items}</ul>
+    <table className={itemsListClass}>
+      <thead><tr><th></th><th></th></tr></thead>
+      <tbody>{items}</tbody>
+    </table>
   </li>
 );
   }
