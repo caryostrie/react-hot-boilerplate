@@ -30,7 +30,7 @@ var CategoryItem = Framework.createReactClass({
     this.setState({show:!this.state.show});
   },
   onRender: function(data, modelOrCollection, helpers) {
-var headerClass = this.state.show ? 'fa fa-chevron-down' : 'fa fa-chevron-right';
+var headerClass = this.state.show ? 'fa fa-angle-down' : 'fa fa-angle-right';
 var itemsListClass = ClassNames({
   'collapse-items': true,
   'collapse-items-show': this.state.show
@@ -95,9 +95,32 @@ var filteredItems = _.filter(this.props.items, function(item) {
   return item.description.toLowerCase().indexOf(filterText) !== -1;
 });
 return (
-<div>
-  <input ref="filterTextInput" className="forn-control" placeholder="Search" value={this.props.filterText} onChange={this.onFilterTextChange} />
-  <Views.Collapse categories={this.props.categories} items={filteredItems} />
+<div className="f9-modal-dialog">
+  <div className="f9-modal-content">
+    <div className="f9-modal-header">
+      <table width="100%">
+        <tbody>
+          <tr>
+            <td className="f9-modal-icon">
+              <i className="f9-modal-icon f9-icon fa fa-keyboard-o"></i>
+            </td>
+            <td>
+              <div className="f9-modal-title">REPLACE</div>
+            </td>
+            <td>
+              <input ref="filterTextInput" className="" placeholder="Search" value={this.props.filterText} onChange={this.onFilterTextChange} />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div className="f9-modal-body">
+      <Views.Collapse categories={this.props.categories} items={filteredItems} />
+    </div>
+    <div className="f9-modal-footer">
+      <button id={this.generateIdButton('close')} className="btn f9-positive-cta-btn">Dismiss</button>
+    </div>
+  </div>
 </div>
 );
   }
