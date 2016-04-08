@@ -9,7 +9,7 @@ var itemsToRenderList = function(categories, items) {
   for (var i = 0; i < categories.length; i++) {
     categories[i].items = [];
   }
-  for (var i = 0; i < items.length; i++) {
+  for (i = 0; i < items.length; i++) {
     var item = items[i];
     var category = _.findWhere(categories, {id:item.category});
     if (category) {
@@ -21,22 +21,17 @@ var itemsToRenderList = function(categories, items) {
 
 var CategoryItem = Framework.createReactClass({
   componentName: 'CategoryItem',
-  getInitialState: function() {
-    return {
-      show: true
-    };
-  },
   onHeaderClick: function(e) {
     e.preventDefault();
-    this.setState({show:!this.state.show});
+    this.getModel().toggleShowCategory(this.props.category)
   },
   onRender: function(data, modelOrCollection, helpers) {
-var headerClass = this.state.show ? 'fa fa-angle-down' : 'fa fa-angle-right';
+var category = this.props.category;
+var headerClass = category.show ? 'fa fa-angle-down' : 'fa fa-angle-right';
 var itemsListClass = ClassNames({
   'collapse-items': true,
-  'collapse-items-show': this.state.show
+  'collapse-items-show': category.show
 });
-var category = this.props.category;
 var items = category.items.map(function(item) {
   return (<tr height="26px" key={item.id} className="item-name">
     <td>{item.description}</td>
@@ -67,12 +62,12 @@ var Views = {};
 Views.Collapse = Framework.createReactClass({
   componentName: 'Collapse',
   onRender: function(data, modelOrCollection, helpers) {
-var categories = itemsToRenderList(this.props.categories, this.props.items);
+var categories = itemsToRenderList(modelOrCollection.getCategories(), modelOrCollection.getKeyItems());
 categories = _.filter(categories, function(category) {
-    return category.items.length;
+  return category.items.length;
 });
 categories = categories.map(function(category) {
-  return <CategoryItem key={category.id} category={category} />
+  return <CategoryItem key={category.id} category={category} model={modelOrCollection} />
 }.bind(this));
 return (
 <ul className="collapse-category">{categories}</ul>
@@ -81,19 +76,11 @@ return (
 });
 Views.FilterableCollapse = Framework.createReactClass({
   componentName: 'FilterableCollapse',
-  getInitialState: function() {
-    return {
-      filterText: ''
-    };
-  },
   onFilterTextChange: function(val) {
-    this.setState({filterText:val});
+    this.getModel().filter(val);
   },
   onRender: function(data, modelOrCollection, helpers) {
-var filterText = this.state.filterText.toLowerCase();
-var filteredItems = _.filter(this.props.items, function(item) {
-  return item.description.toLowerCase().indexOf(filterText) !== -1;
-});
+var filteredItems = modelOrCollection.getKeyItems();
 return (
 <div className="f9-modal-dialog">
   <div className="f9-modal-content">
@@ -108,21 +95,14 @@ return (
               <div className="f9-modal-title">REPLACE</div>
             </td>
             <td>
-              <SearchControl placeholder={'Search for shortcuts...'} value={this.props.filterText} onSearchChange={this.onFilterTextChange} />
-{/*}
-              <div className="f9-search-control input-group">
-                <span className="fa fa-search search-control-icon"></span>
-                <span className="fa fa-times search-control-clear" onClick={this.onClearClicked} style={clearStyle}></span>
-                <input ref="filterTextInput" className="" placeholder="Search" value={this.props.filterText} onChange={this.onFilterTextChange} />
-              </div>
-*/}
+              <SearchControl placeholder={'Search for shortcuts...'} value={modelOrCollection.getFilterText()} onSearchChange={this.onFilterTextChange} />
             </td>
           </tr>
         </tbody>
       </table>
     </div>
     <div className="f9-modal-body">
-      <Views.Collapse categories={this.props.categories} items={filteredItems} />
+      <Views.Collapse model={modelOrCollection} />
     </div>
     <div className="f9-modal-footer">
       <button id={this.generateIdButton('close')} className="btn f9-positive-cta-btn">Dismiss</button>
