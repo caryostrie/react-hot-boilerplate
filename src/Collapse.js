@@ -3,6 +3,7 @@ import Framework from './Framework';
 import Utils from './Utils';
 import _ from 'underscore';
 import ClassNames from 'classnames';
+import SearchControl from './SearchControl';
 
 var itemsToRenderList = function(categories, items) {
   for (var i = 0; i < categories.length; i++) {
@@ -85,9 +86,8 @@ Views.FilterableCollapse = Framework.createReactClass({
       filterText: ''
     };
   },
-  onFilterTextChange: function(e) {
-    e.preventDefault();
-    this.setState({filterText:this.refs.filterTextInput.value});
+  onFilterTextChange: function(val) {
+    this.setState({filterText:val});
   },
   onRender: function(data, modelOrCollection, helpers) {
 var filterText = this.state.filterText.toLowerCase();
@@ -108,7 +108,14 @@ return (
               <div className="f9-modal-title">REPLACE</div>
             </td>
             <td>
-              <input ref="filterTextInput" className="" placeholder="Search" value={this.props.filterText} onChange={this.onFilterTextChange} />
+              <SearchControl placeholder={'Search for shortcuts...'} value={this.props.filterText} onSearchChange={this.onFilterTextChange} />
+{/*}
+              <div className="f9-search-control input-group">
+                <span className="fa fa-search search-control-icon"></span>
+                <span className="fa fa-times search-control-clear" onClick={this.onClearClicked} style={clearStyle}></span>
+                <input ref="filterTextInput" className="" placeholder="Search" value={this.props.filterText} onChange={this.onFilterTextChange} />
+              </div>
+*/}
             </td>
           </tr>
         </tbody>
