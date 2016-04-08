@@ -41,6 +41,7 @@ var PresModel = Backbone.Model.extend({
 
   initialize: function() {
     var categories = Keys.categories;
+    categories.push({id:'category-general',name:'General Keyboard Actions'});
     categories = categories.map(function(category) {
       category.show = true;
       return category;
@@ -52,6 +53,15 @@ var PresModel = Backbone.Model.extend({
     keysToKeyItems(keyItems, Keys.callControlsMap);
     keysToKeyItems(keyItems, Keys.voicemailControlsMap);
     keysToKeyItems(keyItems, Keys.textControlsMap);
+
+    var generalControlsMap = {
+      Confirm: {keys:'Enter',description:'Confirm/Approve (question, dialog, form, active button, etc)', category: 'category-general'},
+      Cancel: {keys:'Esc',description:'Cancel/Dismiss (dialog, notification, etc)', category: 'category-general'},
+      Next: {keys:'Tab',description:'Next item (within a page, dialog, form, etc)', category: 'category-general'},
+      Navigation: {keys:'Up / Down / Left / Right',description:'Navigation (table cells, lists, drop-down items, etc)', category: 'category-general'}
+    };
+    keysToKeyItems(keyItems, generalControlsMap);
+
     this.set('allKeyItems', keyItems);
     this.set('keyItems', keyItems);
   },

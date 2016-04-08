@@ -67,7 +67,7 @@ EnglishKeys.categories = [
   {id:'category-state',name:'State Management'},
   {id:'category-call',name:'Call Channel Functions'},
   {id:'category-voicemail',name:'Voicemail Channel Functions'},
-  {id:'category-text',name:'Text Channel Functions'},
+  {id:'category-text',name:'Text Channel Functions'}
 ];
 
 export default EnglishKeys;
